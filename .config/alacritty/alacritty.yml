@@ -27,8 +27,6 @@ colors:
     white:   '0xe2dde3'
 
 window:
-  # Background opacity
-  opacity: 0.95
 
   # padding
   padding:
