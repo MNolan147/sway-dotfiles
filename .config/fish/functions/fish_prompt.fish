@@ -1,107 +1,84 @@
-function fish_prompt
-    # This prompt shows:
-    # - green lines if the last return command is OK, red otherwise
-    # - your user name, in red if root or yellow otherwise
-    # - your hostname, in cyan if ssh or blue otherwise
-    # - the current path (with prompt_pwd)
-    # - date +%X
-    # - the current virtual environment, if any
-    # - the current git status, if any, with fish_git_prompt
-    # - the current battery state, if any, and if your power cable is unplugged, and if you have "acpi"
-    # - current background jobs, if any
+function fish_prompt --description 'Write out the prompt'
+    set -l last_pipestatus $pipestatus
 
-    # It goes from:
-    # ┬─[nim@Hattori:~]─[11:39:00]
-    # ╰─>$ echo here
-
-    # To:
-    # ┬─[nim@Hattori:~/w/dashboard]─[11:37:14]─[V:django20]─[G:master↑1|●1✚1…1]─[B:85%, 05:41:42 remaining]
-    # │ 2	15054	0%	arrêtée	sleep 100000
-    # │ 1	15048	0%	arrêtée	sleep 100000
-    # ╰─>$ echo there
-
-    set -l retc red
-    test $status = 0; and set retc green
-
-    set -q __fish_git_prompt_showupstream
-    or set -g __fish_git_prompt_showupstream auto
-
-    function _nim_prompt_wrapper
-        set retc $argv[1]
-        set field_name $argv[2]
-        set field_value $argv[3]
-
-        set_color normal
-        set_color $retc
-        echo -n '─'
-        set_color -o green
-        echo -n '['
-        set_color normal
-        test -n $field_name
-        and echo -n $field_name:
-        set_color $retc
-        echo -n $field_value
-        set_color -o green
-        echo -n ']'
+    if not set -q __fish_git_prompt_show_informative_status
+        set -g __fish_git_prompt_show_informative_status 1
+    end
+    if not set -q __fish_git_prompt_hide_untrackedfiles
+        set -g __fish_git_prompt_hide_untrackedfiles 1
+    end
+    if not set -q __fish_git_prompt_color_branch
+        set -g __fish_git_prompt_color_branch magenta --bold
+    end
+    if not set -q __fish_git_prompt_showupstream
+        set -g __fish_git_prompt_showupstream "informative"
+    end
+    if not set -q __fish_git_prompt_char_upstream_ahead
+        set -g __fish_git_prompt_char_upstream_ahead "↑"
+    end
+    if not set -q __fish_git_prompt_char_upstream_behind
+        set -g __fish_git_prompt_char_upstream_behind "↓"
+    end
+    if not set -q __fish_git_prompt_char_upstream_prefix
+        set -g __fish_git_prompt_char_upstream_prefix ""
+    end
+    if not set -q __fish_git_prompt_char_stagedstate
+        set -g __fish_git_prompt_char_stagedstate "●"
+    end
+    if not set -q __fish_git_prompt_char_dirtystate
+        set -g __fish_git_prompt_char_dirtystate "✚"
+    end
+    if not set -q __fish_git_prompt_char_untrackedfiles
+        set -g __fish_git_prompt_char_untrackedfiles "…"
+    end
+    if not set -q __fish_git_prompt_char_invalidstate
+        set -g __fish_git_prompt_char_invalidstate "✖"
+    end
+    if not set -q __fish_git_prompt_char_cleanstate
+        set -g __fish_git_prompt_char_cleanstate "✔"
+    end
+    if not set -q __fish_git_prompt_color_dirtystate
+        set -g __fish_git_prompt_color_dirtystate blue
+    end
+    if not set -q __fish_git_prompt_color_stagedstate
+        set -g __fish_git_prompt_color_stagedstate yellow
+    end
+    if not set -q __fish_git_prompt_color_invalidstate
+        set -g __fish_git_prompt_color_invalidstate red
+    end
+    if not set -q __fish_git_prompt_color_untrackedfiles
+        set -g __fish_git_prompt_color_untrackedfiles $fish_color_normal
+    end
+    if not set -q __fish_git_prompt_color_cleanstate
+        set -g __fish_git_prompt_color_cleanstate green --bold
     end
 
-    set_color $retc
-    echo -n '┬─'
-    set_color -o green
-    echo -n [
-    if test "$USER" = root -o "$USER" = toor
-        set_color -o red
-    else
-        set_color -o yellow
+    set -l color_cwd
+    set -l prefix
+    set -l suffix
+    switch "$USER"
+        case root toor
+            if set -q fish_color_cwd_root
+                set color_cwd $fish_color_cwd_root
+            else
+                set color_cwd $fish_color_cwd
+            end
+            set suffix '#'
+        case '*'
+            set color_cwd $fish_color_cwd
+            set suffix '$'
     end
-    echo -n $USER
-    set_color -o white
-    echo -n @
-    if [ -z "$SSH_CLIENT" ]
-        set_color -o blue
-    else
-        set_color -o cyan
-    end
-    echo -n (prompt_hostname)
-    set_color -o white
-    echo -n :(prompt_pwd)
-    set_color -o green
-    echo -n ']'
 
-    # Date
-    _nim_prompt_wrapper $retc '' (date +%X)
-
-    # Virtual Environment
-    set -q VIRTUAL_ENV_DISABLE_PROMPT
-    or set -g VIRTUAL_ENV_DISABLE_PROMPT true
-    set -q VIRTUAL_ENV
-    and _nim_prompt_wrapper $retc V (basename "$VIRTUAL_ENV")
-
-    # git
-    set prompt_git (fish_git_prompt | string trim -c ' ()')
-    test -n "$prompt_git"
-    and _nim_prompt_wrapper $retc G $prompt_git
-
-    # Battery status
-    type -q acpi
-    and test (acpi -a 2> /dev/null | string match -r off)
-    and _nim_prompt_wrapper $retc B (acpi -b | cut -d' ' -f 4-)
-
-    # New line
-    echo
-
-    # Background jobs
+    # PWD
+    set_color $color_cwd
+    echo -n (prompt_pwd)
     set_color normal
-    for job in (jobs)
-        set_color $retc
-        echo -n '│ '
-        set_color brown
-        echo $job
-    end
+
+    printf '%s ' (fish_vcs_prompt)
+
+    set -l pipestatus_string (__fish_print_pipestatus "[" "] " "|" (set_color $fish_color_status) (set_color --bold $fish_color_status) $last_pipestatus)
+    echo -n $pipestatus_string
     set_color normal
-    set_color $retc
-    echo -n '╰─>'
-    set_color -o red
-    echo -n '$ '
-    set_color normal
+
+    echo -n "$suffix "
 end
