@@ -14,7 +14,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term alacritty
+set $term /usr/local/bin/alacritty 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
@@ -87,7 +87,7 @@ input type:keyboard {
 # Basics:
 #
     # Start a terminal
-    bindsym $mod+Return exec $term
+    bindsym $mod+Return exec $term 
 
     # Kill focused window
     bindsym $mod+Shift+q kill
@@ -146,22 +146,22 @@ input type:keyboard {
     bindsym $mod+3 workspace $ws3
     bindsym $mod+4 workspace $ws4
     bindsym $mod+5 workspace $ws5
-    bindsym $mod+6 workspace $ws6
-    bindsym $mod+7 workspace $ws7
-    bindsym $mod+8 workspace $ws8
-    bindsym $mod+9 workspace $ws9
-    bindsym $mod+0 workspace $ws10
+    bindsym $mod+f1 workspace $ws6
+    bindsym $mod+f2 workspace $ws7
+    bindsym $mod+f3 workspace $ws8
+    bindsym $mod+f4 workspace $ws9
+    bindsym $mod+f5 workspace $ws10
     # Move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace $ws1
     bindsym $mod+Shift+2 move container to workspace $ws2
     bindsym $mod+Shift+3 move container to workspace $ws3
     bindsym $mod+Shift+4 move container to workspace $ws4
     bindsym $mod+Shift+5 move container to workspace $ws5
-    bindsym $mod+Shift+6 move container to workspace $ws6
-    bindsym $mod+Shift+7 move container to workspace $ws7
-    bindsym $mod+Shift+8 move container to workspace $ws8
-    bindsym $mod+Shift+9 move container to workspace $ws9
-    bindsym $mod+Shift+0 move container to workspace $ws10
+    bindsym $mod+Shift+f1 move container to workspace $ws6
+    bindsym $mod+Shift+f2 move container to workspace $ws7
+    bindsym $mod+Shift+f3 move container to workspace $ws8
+    bindsym $mod+Shift+f4 move container to workspace $ws9
+    bindsym $mod+Shift+f5 move container to workspace $ws10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
 #
@@ -181,8 +181,8 @@ input type:keyboard {
 # Brightness control:
 #
     # Use brightnessctl to controll backlight
-    bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 5%+
-    bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+    bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 10%+
+    bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 #
 # Layout stuff:
 #
@@ -208,6 +208,11 @@ input type:keyboard {
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
+#
+# Screenshots and screen recording
+#
+    bindsym Print grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | "\(.x),\(.y) \(.width)x\(.height)"')" 
+    bindsym $mod+p wf-recorder -g "$(slurp)"
 #
 # Scratchpad:
 #
@@ -253,7 +258,8 @@ bindsym $mod+r mode "resize"
     exec --no-startup-id spotify
     exec --no-startup-id thunderbird
     exec --no-startup-id VirtualBoxVM --startvm "SCHOOL-WINDOWS-10" --start-paused
-
+    
+    exec --no-startup-id nm-applet
     focus_follows_mouse no
     focus_on_window_activation smart 
 #
@@ -262,7 +268,7 @@ bindsym $mod+r mode "resize"
     assign [app_id="firefox"] workspace $ws1
     assign [app_id="thunderbird"] workspace $ws4
     assign [class="VirtualBox Machine"] workspace $ws2
-    for_window [class="Spotify"] move to $ws3
+    assign [app_id="spotify"] workspace $ws3
 #
 # Set Gaps
 #
