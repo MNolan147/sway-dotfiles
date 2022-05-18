@@ -1,5 +1,7 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export "PATH=/home/michael/Android/Sdk/cmdline-tools/latest/bin:/usr/local/android-studio/bin:/home/michael/.local/bin:$PATH"
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export ANDROID_SDK_ROOT="/home/michael/Android/Sdk"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
