@@ -1,10 +1,10 @@
 { 
-    "width": 1280, // Waybar width
+    "width": 1900,
     "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["sway/mode","keyboard-state","sway/workspaces","backlight","pulseaudio"],
     "modules-center": ["idle_inhibitor","clock"],
-    "modules-right": ["custom/spotify","battery","memory","cpu","network","tray"],
+    "modules-right": ["battery","memory","cpu","network","tray"],
     // Modules configuration
     // Left
     "sway/mode": {

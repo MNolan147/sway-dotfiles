@@ -1,9 +1,4 @@
-# Default config for sway
 #
-# Copy this to ~/.config/sway/config and edit it to your liking.
-#
-# Read `man 5 sway` for a complete reference.
-
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -20,17 +15,14 @@ set $term /usr/local/bin/alacritty
 # on the original workspace that the command was run on.
 set $menu wofi --show run --allow-images | xargs swaymsg exec --
 
-# Start wob
-#set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
-#exec_always rm -f $WOBSOCK && mkfifo $WOBSOCK && tail -f $WOBSOCK | wob
-#exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
-
 include /etc/sway/config-vars.d/*
+include "$HOME/.cache/wal/colors-sway"
+include ~/.config/sway/keybinds
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/output * bg ~/Documents/Game\ Images/Outer\ Wilds/background_image.png fill
-output * bg ~/Documents/Game\ Images/Outer\ Wilds/sC5wdAu.jpeg stretch
+output * bg ~/.cache/bgp/background.png fill
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
@@ -42,11 +34,10 @@ output * bg ~/Documents/Game\ Images/Outer\ Wilds/sC5wdAu.jpeg stretch
 # Example configuration:
 #
 exec swayidle -w \
-    timeout 300 'swaylock -f -i ~/Documents/Game\ Images/Outer\ Wilds/lockscreen.png' \
+    timeout 300 'swaylock -f -i ~/.cache/bgp/lockscreen.png' \
     timeout 360 'swaymsg "output * dpms off"' \
     resume 'swaymsg "output * dpms on"' \
-    before-sleep 'playerctl pause' \
-    before-sleep 'swaylock -f -i ~/Documents/Game\ Images/Outer\ Wilds/lockscreen.png' 
+    before-sleep 'swaylock -f -i ~/.cache/bgp/lockscreen.png' 
 
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
@@ -81,178 +72,11 @@ input type:keyboard {
     repeat_rate 30
     xkb_model "pc105"
 }
-
-### Key bindings
-#
-# Basics:
-#
-    # Start a terminal
-    bindsym $mod+q exec $term 
-
-    # Kill focused window
-    bindsym $mod+Shift+q kill
-
-    # Start your launcher
-    bindsym $mod+e exec $menu
-    bindsym $mod+shift+e exec wofi --show drun --allow-images | xargs swaymsg exec --
-
-    # Drag floating windows by holding down $mod and left mouse button.
-    # Resize them with right mouse button + $mod.
-    # Despite the name, also works for non-floating windows.
-    # Change normal to inverse to use left mouse button for resizing and right
-    # mouse button for dragging.
-    floating_modifier $mod normal
-
-    # Reload the configuration file
-    bindsym $mod+Shift+c reload
-
-    # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+x exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
-    # Lock screen
-    bindsym $mod+l exec swaylock -f -i ~/Documents/Game\ Images/Outer\ Wilds/lockscreen.png
-#
-# Moving around:
-#
-    # Move your focus around
-    # Or use $mod+[up|down|left|right]
-    bindsym $mod+a focus left
-    bindsym $mod+s focus down
-    bindsym $mod+w focus up
-    bindsym $mod+d focus right
-
-    # Move the focused window with the same, but add Shift
-    # Ditto, with arrow keys
-    bindsym $mod+Shift+a move left
-    bindsym $mod+Shift+s move down
-    bindsym $mod+Shift+w move up
-    bindsym $mod+Shift+d move right
-#
-# Workspaces:
-#
-    # Set workspace names
-    set $ws1 1: 
-    set $ws2 2:
-    set $ws3 3:
-    set $ws4 4:@
-    set $ws5 5:
-    set $ws6 6:
-    set $ws7 7:7 
-    set $ws8 8:8
-    set $ws9 9:9
-    set $ws10 10:10
-    # Switch to workspace
-    bindsym $mod+1 workspace $ws1
-    bindsym $mod+2 workspace $ws2
-    bindsym $mod+3 workspace $ws3
-    bindsym $mod+4 workspace $ws4
-    bindsym $mod+5 workspace $ws5
-    bindsym $mod+f1 workspace $ws6
-    bindsym $mod+f2 workspace $ws7
-    bindsym $mod+f3 workspace $ws8
-    bindsym $mod+f4 workspace $ws9
-    bindsym $mod+f5 workspace $ws10
-    # Move focused container to workspace
-    bindsym $mod+Shift+1 move container to workspace $ws1
-    bindsym $mod+Shift+2 move container to workspace $ws2
-    bindsym $mod+Shift+3 move container to workspace $ws3
-    bindsym $mod+Shift+4 move container to workspace $ws4
-    bindsym $mod+Shift+5 move container to workspace $ws5
-    bindsym $mod+Shift+f1 move container to workspace $ws6
-    bindsym $mod+Shift+f2 move container to workspace $ws7
-    bindsym $mod+Shift+f3 move container to workspace $ws8
-    bindsym $mod+Shift+f4 move container to workspace $ws9
-    bindsym $mod+Shift+f5 move container to workspace $ws10
-    # Note: workspaces can have any name you want, not just numbers.
-    # We just use 1-10 as the default.
-    workspace_auto_back_and_forth yes
-#
-# Audio control:
-#
-    # Use pactl to control volume
-    bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -ui 5
-    bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -ud 5
-    bindsym XF86AudioMute exec --no-startup-id pamixer --toggle-mute
-    bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
-
-    # Use playerctl to play and pause
-    bindsym XF86AudioPlay exec --no-startup-id "playerctl --player playerctld play-pause"
-    bindsym XF86AudioNext exec --no-startup-id "playerctl --player playerctld next"
-    bindsym XF86AudioPrev exec --no-startup-id "playerctl --player playerctld previous"
-#
-# Brightness control:
-#
-    # Use brightnessctl to controll backlight
-    bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 10%+
-    bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
-#
-# Layout stuff:
-#
-    # You can "split" the current object of your focus with
-    # $mod+b or $mod+v, for horizontal and vertical splits
-    # respectively.
-    bindsym $mod+c splith
-    bindsym $mod+v splitv
-
-    # Switch the current container between different layout styles
-    bindsym $mod+z layout tabbed
-    bindsym $mod+x layout toggle split
-
-    # Make the current focus fullscreen
-    bindsym $mod+f fullscreen
-
-    # Toggle the current focus between tiling and floating mode
-    bindsym $mod+Shift+space floating toggle
-
-    # Swap focus between the tiling area and the floating area
-    bindsym $mod+space focus mode_toggle
-
-    # Move focus to the parent container
-    bindsym $mod+t focus parent
-#
-# Screenshots and screen recording
-#
-    bindsym Print grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | "\(.x),\(.y) \(.width)x\(.height)"')" 
-    bindsym $mod+p wf-recorder -g "$(slurp)"
-#
-# Scratchpad:
-#
-    # Sway has a "scratchpad", which is a bag of holding for windows.
-    # You can send windows there and get them back later.
-
-    # Move the currently focused window to the scratchpad
-    bindsym $mod+Shift+minus move scratchpad
-
-    # Show the next scratchpad window or hide the focused scratchpad window.
-    # If there are multiple scratchpad windows, this command cycles through them.
-    bindsym $mod+minus scratchpad show
-#
-# Resizing containers:
-#
-mode "resize" {
-    # left will shrink the containers width
-    # right will grow the containers width
-    # up will shrink the containers height
-    # down will grow the containers height
-    bindsym a resize shrink width 10px
-    bindsym s resize grow height 10px
-    bindsym w resize shrink height 10px
-    bindsym d resize grow width 10px
-
-    # Ditto, with arrow keys
-    bindsym Left resize shrink width 10px
-    bindsym Down resize grow height 10px
-    bindsym Up resize shrink height 10px
-    bindsym Right resize grow width 10px
-
-    # Return to default mode
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-bindsym $mod+r mode "resize"
 #
 # Auto-start processes
 #
     # Start background processes
+    exec --no-startup-id pywalfox start
     # Start foreground applications
     exec --no-startup-id firefox 
     exec --no-startup-id spotify
@@ -274,11 +98,11 @@ bindsym $mod+r mode "resize"
 #
     default_border pixel 1
 
-    smart_gaps on
+#    smart_gaps on
     smart_borders on
-    gaps inner  10
-    gaps vertical -5
-    gaps outer 1
+#    gaps inner  10
+#    gaps vertical -5
+#    gaps outer 1
 #
 # Theming
 #
@@ -286,20 +110,20 @@ bindsym $mod+r mode "resize"
     font pango:Inconsolata 13, DejaVu Sans Mono, Terminus 9
 
     # Colour Scheme
-    # Colour Scheme 2
     # class                 border  bground text    indicator child_border
-    client.focused          #304878 #303060 #FFFFFF #304878   #306090
-    client.focused_inactive #604848 #A89090 #000000 #604848   #784830
-    client.unfocused        #181830 #180018 #888888 #181830   #222222
-    client.urgent           #906030 #C09030 #903018 #906030   #906030
-    client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+    #client.focused          304878 303060 FFFFFF 304878 306090
+    #client.focused_inactive 604848 A89090 000000 604848   784830
+    #client.unfocused        181830 180018 888888 181830   222222
+    #client.urgent           906030 C09030 903018 906030   906030
+    #client.placeholder      000000 0C0C0C FFFFFF 000000   0C0C0C
 
-    client.background       #303060
+    # class                  bground     border  text        
+    client.focused           $background $color2 $foreground 
+    client.focused_inactive  $background $color4 $foreground 
+    client.unfocused         $background $color0 $foreground 
+    client.urgent            $background $color3 $foreground 
 
-#
-# Status Bar:
-#
-# Read `man 5 sway-bar` for more information about this section.
+    client.background       $background 
 bar {
     swaybar_command waybar
 }

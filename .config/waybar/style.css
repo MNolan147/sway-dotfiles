@@ -1,6 +1,8 @@
+@import url('file:///home/michael/.cache/wal/colors-waybar.css');
+
 * {
     border:        none;
-    border-radius: 10;
+    border-radius: 0;
     font-family: 'Inconsolata Nerd Font Mono';
     font-size:     20px;
     box-shadow:    none;
@@ -9,13 +11,13 @@
 }
 
 window {
-    color:      rgba(48, 96, 144, 0.95);
-    background: rgba(24, 24, 48, 0.70);
+    color:      @color7;
+    background: @background;
 }
 
 window#waybar.solo {
-    color:      rgba(217, 216, 216, 1);
-    background: rgba(35, 31, 32, 0.85);
+    color:      @color7;
+    background: @background;
 }
 
 #workspaces {
