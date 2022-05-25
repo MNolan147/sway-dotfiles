@@ -1,0 +1,18 @@
+# Font
+font pango:Inconsolata 13, DejaVu Sans Mono, Terminus 9
+
+# Colour Scheme
+# class                 border  bground text    indicator child_border
+#client.focused          #304878 #303060 #FFFFFF #304878   #306090
+#client.focused_inactive #604848 #A89090 #000000 #604848   #784830
+#client.unfocused        #181830 #180018 #888888 #181830   #222222
+#client.urgent           #906030 #C09030 #903018 #906030   #906030
+#client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
+
+# class                 border  bground     text        indicator   child_border
+client.focused          $color6 $background $foreground $color6     $background
+client.focused_inactive $color6 $background $foreground $color6     $background
+client.unfocused        $color6 $background $foreground $color6     $background
+client.urgent           $color1 $background $foreground $color1     $background
+
+client.background       $background 
