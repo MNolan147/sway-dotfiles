@@ -77,13 +77,14 @@ input type:keyboard {
 #
     # Start background processes
     exec --no-startup-id pywalfox start
+    exec --no-startup-id nm-applet
+    exec --no-startup-id blueman-applet
     # Start foreground applications
     exec --no-startup-id firefox 
     exec --no-startup-id spotify
     exec --no-startup-id thunderbird
     exec --no-startup-id VirtualBoxVM --startvm "SCHOOL-WINDOWS-10" --start-paused
     
-    exec --no-startup-id nm-applet
     focus_follows_mouse no
     focus_on_window_activation smart 
 #
