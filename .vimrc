@@ -1,4 +1,4 @@
-" Vimrc the vim config location
+ Vimrc the vim config location
 
 set rtp +=~/.config/vim
 

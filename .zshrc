@@ -6,6 +6,8 @@ export ANDROID_SDK_ROOT="/home/michael/Android/Sdk"
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# z
+. ~/programs/z/z.sh
 # Set term colours
 (cat ~/.cache/wal/sequences &)
 source ~/.cache/wal/colors-tty.sh
@@ -73,3 +75,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias u='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias cat='batcat'
 alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
