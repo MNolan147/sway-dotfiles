@@ -58,10 +58,12 @@ window#waybar.solo {
 
 #battery.critical {
     color:      rgba(238, 46, 36, 1);
+    background: @background;
 }
 
 #battery.charging {
     color:      rgba(217, 216, 216, 1);
+    background: @background;
 }
 
 #custom-storage.warning {

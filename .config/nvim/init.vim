@@ -27,10 +27,28 @@ call plug#begin()
     Plug 'ryanoasis/vim-devicons'
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'scrooloose/nerdcommenter' 
+    Plug 'scrooloose/syntastic'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'raimondi/delimitmate'
     Plug 'dylanaraps/wal.vim'
+    Plug 'airblade/vim-gitgutter'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-surround'
+    Plug 'ctrlpvim/ctrlp.vim'
+    Plug 'majutsushi/tagbar'
+    Plug 'yggdroot/indentline'
+    Plug 'vim-scripts/sudo.vim'
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
+    " language plugins
+    Plug 'sheerun/vim-polyglot'
+    Plug 'valloric/youcompleteme'
+    Plug 'lervag/vimtex'
 call plug#end()
+
+" open term
+nnoremap <leader>\ :term 
 
 " move line or visually selected block - alt+j/k
 inoremap <A-j> <Esc>:m .+1<CR>==gi
@@ -57,6 +75,11 @@ nnoremap <C-l> <C-w>l
 :vnoremap jk <Esc>
 :vnoremap kj <Esc>
 
+" close tab
+nnoremap <C-w> :tabc<CR> 
+" close pane
+nnoremap <C-Q> :q<CR>
+
 " Press the space bar to type the : character in command mode.
 nnoremap <space> :
 
@@ -67,23 +90,36 @@ nnoremap O O<esc>
 
 " reload init.vim
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<CR>
+nnoremap <leader>pi :PlugInstall<CR>
 
 " copies filepath to clipboard by pressing yf
 :nnoremap <silent> yf :let @+=expand('%:p')<CR>
 " copies pwd to clipboard: command yd
 :nnoremap <silent> yd :let @+=expand('%:p:h')<CR>
 
+" airline
+let g:airline#extensions#tabline#enabled = 1
+
 " nerd tree
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
-" Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+" start NERDTree. If a file is specified, move the cursor to its window.
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
+autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
+
+" Open the existing NERDTree on each new tab.
+autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 " Set wal scheme
 colorscheme wal
+
+" Tagbar
+nmap <leader>b :TagbarToggle<CR>

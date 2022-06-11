@@ -24,24 +24,36 @@
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+x exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
-    # Lock screen
-    bindsym $mod+l exec swaylock -f -i ~/.cache/bgp/lockscreen.png
+    # Lock screen 
+    bindsym $mod+m exec swaylock -f -i ~/.cache/bgp/lockscreen.png
 #
 # Moving around:
 #
     # Move your focus around
-    # Or use $mod+[up|down|left|right]
     bindsym $mod+a focus left
     bindsym $mod+s focus down
     bindsym $mod+w focus up
     bindsym $mod+d focus right
 
+    bindsym $mod+h focus left
+    bindsym $mod+j focus down
+    bindsym $mod+k focus up
+    bindsym $mod+l focus right
+
     # Move the focused window with the same, but add Shift
-    # Ditto, with arrow keys
     bindsym $mod+Shift+a move left
     bindsym $mod+Shift+s move down
     bindsym $mod+Shift+w move up
     bindsym $mod+Shift+d move right
+
+    bindsym $mod+Shift+h move left
+    bindsym $mod+Shift+j move down
+    bindsym $mod+Shift+k move up
+    bindsym $mod+Shift+l move right
+
+    # Move focus to output
+    bindsym $mod+Mod1+Shift+o focus left
+    bindsym $mod+Mod1+o focus right
 #
 # Workspaces:
 #
@@ -56,6 +68,7 @@
     set $ws8 8:8
     set $ws9 9:9
     set $ws10 10:10
+
     # Switch to workspace
     bindsym $mod+1 workspace $ws1
     bindsym $mod+2 workspace $ws2
@@ -81,6 +94,8 @@
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
     workspace_auto_back_and_forth yes
+    bindsym $mod+o move workspace to output right 
+    bindsym $mod+Shift+o move workspace to output left 
 #
 # Audio control:
 #
@@ -92,6 +107,7 @@
 
     # Use playerctl to play and pause
     bindsym XF86AudioPlay exec --no-startup-id "playerctl --player playerctld play-pause"
+    bindsym XF86AudioPause exec --no-startup-id "playerctl --player playerctld play-pause"
     bindsym XF86AudioNext exec --no-startup-id "playerctl --player playerctld next"
     bindsym XF86AudioPrev exec --no-startup-id "playerctl --player playerctld previous"
 #
@@ -128,8 +144,11 @@
 #
 # Screenshots and screen recording
 #
-    bindsym Print grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | "\(.x),\(.y) \(.width)x\(.height)"')" 
-    bindsym $mod+p wf-recorder -g "$(slurp)"
+
+    bindsym $mod+p       exec grimshot --notify save active
+    bindsym $mod+Shift+p exec grimshot --notify save area
+    bindsym $mod+Alt+p  exec grimshot --notify save output
+    bindsym $mod+Ctrl+p  exec grimshot --notify save window
 #
 # Scratchpad:
 #

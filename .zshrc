@@ -15,7 +15,7 @@ export TERM=xterm-256color
 . ~/.cache/wal/colors.sh
 
 # Theme
-ZSH_THEME="gallifrey"
+ZSH_THEME="lambda"
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
@@ -41,7 +41,7 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aliases common-aliases command-not-found ubuntu)
+plugins=(git aliases common-aliases command-not-found ubuntu hhighlighter)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -54,9 +54,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vi'
+    export EDITOR='vi'
+elif [ -f /bin/nvim ]; then
+    export EDITOR='nvim'
 else
-  export EDITOR='vim'
+    export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -75,5 +77,10 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias u='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias cat='batcat'
 alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+alias wr='w3m www.wordreference.com'
+alias vim='nvim'
+alias btop='btop -lc'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+eval $(thefuck --alias)
