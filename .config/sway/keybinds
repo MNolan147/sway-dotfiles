@@ -9,8 +9,7 @@
     bindsym $mod+Shift+q kill
 
     # Start your launcher
-    bindsym $mod+Shift+e exec $menu
-    bindsym $mod+e exec wofi --show drun --allow-images | xargs swaymsg exec --
+    bindsym $mod+e exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -24,8 +23,13 @@
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+x exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+
     # Lock screen 
     bindsym $mod+m exec swaylock -f -i ~/.cache/bgp/lockscreen.png
+    bindsym $mod+Shift+m exec systemctl suspend
+
+    # Input modifiers
+    bindsym $mod+y seat * hide_cursor 0 
 #
 # Moving around:
 #
@@ -169,10 +173,10 @@ mode "resize" {
     # right will grow the containers width
     # up will shrink the containers height
     # down will grow the containers height
-    bindsym a resize shrink width 10px
-    bindsym s resize grow height 10px
-    bindsym w resize shrink height 10px
-    bindsym d resize grow width 10px
+    bindsym h resize shrink width 10px
+    bindsym j resize grow height 10px
+    bindsym k resize shrink height 10px
+    bindsym l resize grow width 10px
 
     # Ditto, with arrow keys
     bindsym Left resize shrink width 10px

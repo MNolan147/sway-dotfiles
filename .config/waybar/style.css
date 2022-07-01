@@ -1,10 +1,9 @@
 @import url('file:///home/michael/.cache/wal/colors-waybar.css');
 
 * {
-    border:        none;
     border-radius: 0;
-    font-family: 'Inconsolata Nerd Font Mono';
-    font-size:     20px;
+    font-family: 'Inconsolata Nerd Font Mono, Font Awesome';
+    font-size:     15px;
     box-shadow:    none;
     text-shadow:   none;
     transition-duration: 0s;
@@ -13,11 +12,15 @@
 window {
     color:      @color7;
     background: @background;
+    border: 5px solid;
+    border-color: @background;
 }
 
 window#waybar.solo {
     color:      @color7;
     background: @background;
+    border: 5px solid;
+    border-color: @background;
 }
 
 #workspaces {
@@ -26,20 +29,20 @@ window#waybar.solo {
 
 #workspaces button {
     padding:    0 5px;
-    color:      rgba(217, 216, 216, 0.4);
+    color:      @color7; 
+    background: @background;
 }
 
 #workspaces button.visible {
-    color:      rgba(217, 216, 216, 1);
+    color:      @color7; 
 }
 
 #workspaces button.focused {
-    border-top: 3px solid rgba(217, 216, 216, 1);
-    border-bottom: 3px solid rgba(217, 216, 216, 0);
+    border-top: 3px solid @color7;
 }
 
 #workspaces button.urgent {
-    color:      rgba(238, 46, 36, 1);
+    color:     @color1; 
 }
 
 #mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-spotify, #custom-weather, #custom-mail {
@@ -53,7 +56,7 @@ window#waybar.solo {
 }
 
 #battery.warning {
-   color:       rgba(255, 210, 4, 1);
+   color:      @color1; 
 }
 
 #battery.critical {

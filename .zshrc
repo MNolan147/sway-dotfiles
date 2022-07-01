@@ -41,7 +41,7 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aliases common-aliases command-not-found ubuntu hhighlighter)
+plugins=(git aliases common-aliases command-not-found ubuntu)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -75,12 +75,35 @@ fi
 alias chp="echo -e 'connect B8:F1:2A:75:A1:65' | bluetoothctl"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias u='sudo apt update && sudo apt upgrade && sudo apt autoremove'
-alias cat='batcat'
-alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
-alias wr='w3m www.wordreference.com'
-alias vim='nvim'
-alias btop='btop -lc'
 
+if [ -f /bin/bat ] || [ -f /bin/batcat ]; then
+    alias cat='batcat'
+else
+    echo "bat not available, using cat"
+fi
+
+if [ -f /bin/fzf ]; then
+    alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+else
+    echo "fzf not available"
+fi
+
+if [ -f /bin/nvim ]; then
+    alias vim='nvim'
+else
+    echo "nvim not available, using vim"
+fi
+
+
+if [ -f /bin/btop ]; then
+    alias btop='btop -lc'
+else
+    echo "btop unavailable"
+fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+alias ls="ls -Nh"
 eval $(thefuck --alias)
+alias zathura=~/.local/bin/zathura
+alias m='tmux select-window -t $(tmux neww -dPt $(tmux new -dPt main)) && tmux attach -t $(tmux list-sessions -F "#{?#{m/r:^main*,#{session_name}},#{session_name},}" | awk /main/ | tail -n 1)'
+ 

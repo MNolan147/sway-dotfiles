@@ -1,0 +1,9 @@
+live-filter 
+bind queue R rand
+add ~/Music/Xenoblade Chronicles 2 OST/
+update-cache f
+clear
+add .
+add *
+help
+add ~/Music/

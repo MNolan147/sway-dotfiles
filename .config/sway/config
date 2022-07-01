@@ -8,12 +8,14 @@ set $left h
 set $down j
 set $up k
 set $right l
+
 # Your preferred terminal emulator
 set $term /usr/local/bin/alacritty 
+
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu wofi --show run --allow-images | xargs swaymsg exec --
+set $menu wofi | xargs swaymsg exec --
 
 include /etc/sway/config-vars.d/*
 include "$HOME/.cache/wal/colors-sway"
@@ -59,10 +61,6 @@ exec swayidle -w \
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
-input * {
-    xkb_layout "us"
-    xkb_options "caps:swapescape,caps:shiftlock,compose:ralt"
-}
 
 input type:touchpad {
     tap enabled
@@ -74,6 +72,9 @@ input type:keyboard {
     repeat_delay 300
     repeat_rate 30
     xkb_model "pc105"
+    xkb_layout us
+    #xkb_variant dvorak
+    xkb_options caps:swapescape,caps:shiftlock,compose:ralt,grp:alt_shift_toggle
 }
 
 input type:touch {
@@ -85,6 +86,8 @@ input type:pointer {
     accel_profile adaptive
     pointer_accel 0.25
 }
+
+seat * hide_cursor 10000
 #
 # Auto-start processes
 #
@@ -92,20 +95,12 @@ input type:pointer {
     exec --no-startup-id pywalfox start
     exec --no-startup-id nm-applet
     # Start foreground applications
-    exec --no-startup-id firefox 
-    exec --no-startup-id spotify
+    exec --no-startup-id qutebrowser 
     exec --no-startup-id thunderbird
     #exec --no-startup-id VirtualBoxVM --startvm "SCHOOL-WINDOWS-10" --start-paused
     
     focus_follows_mouse no
     focus_on_window_activation smart 
-#
-# Auto-move windows
-#
-    assign [app_id="firefox"] workspace $ws1
-    assign [app_id="thunderbird"] workspace $ws4
-    #assign [class="VirtualBox Machine"] workspace $ws2
-    assign [app_id="Spotify"] workspace $ws3
 #
 # Set Gaps
 #
@@ -120,7 +115,7 @@ input type:pointer {
 # Theming
 #
     # Font
-    font pango:Inconsolata 13, DejaVu Sans Mono, Terminus 9
+    font "inconsolata nerd font mono", "fontawesome"
 
     # Colour Scheme
     # class                 border  bground text    indicator child_border
@@ -132,11 +127,20 @@ input type:pointer {
 
     # class                  bground     border  text        
     client.focused           $background $color2 $foreground 
-    client.focused_inactive  $background $color4 $foreground 
+    client.focused_inactive  $background $color0 $foreground 
     client.unfocused         $background $color0 $foreground 
     client.urgent            $background $color3 $foreground 
 
     client.background       $background 
+
+#
+# Opacity
+#
+    set $opacity 0.95
+    for_window [class=".*"] opacity $opacity
+    for_window [app_id=".*"] opacity $opacity
+    #for_window [app_id="qutebrowser"] opacity 1 
+
 bar {
     swaybar_command waybar
 }

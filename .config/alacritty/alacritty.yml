@@ -30,8 +30,8 @@ window:
 
   # padding
   padding:
-    x: 5
-    y: 4
+    #x: 5
+    y: 2
 
     dynamic_padding: true
 cursor:
@@ -54,4 +54,4 @@ font:
     family: Inconsolata Nerd Font Mono
     style: Bold Italic
 
-  size: 13
+  size: 12

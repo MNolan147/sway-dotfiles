@@ -30,10 +30,11 @@ call plug#begin()
     Plug 'scrooloose/syntastic'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    Plug 'easymotion/vim-easymotion'
     Plug 'raimondi/delimitmate'
-    Plug 'dylanaraps/wal.vim'
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
+    Plug 'dylanaraps/wal.vim'
     Plug 'tpope/vim-surround'
     Plug 'ctrlpvim/ctrlp.vim'
     Plug 'majutsushi/tagbar'
@@ -44,6 +45,9 @@ call plug#begin()
     " language plugins
     Plug 'sheerun/vim-polyglot'
     Plug 'valloric/youcompleteme'
+    Plug 'shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    Plug 'Shougo/neosnippet.vim'
+    Plug 'Shougo/neosnippet-snippets'
     Plug 'lervag/vimtex'
 call plug#end()
 
@@ -68,17 +72,17 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-" Press i to enter insert mode, and ii to exit insert mode.
-:inoremap ii <Esc>
-:inoremap jk <Esc>
-:inoremap kj <Esc>
-:vnoremap jk <Esc>
-:vnoremap kj <Esc>
-
 " close tab
 nnoremap <C-w> :tabc<CR> 
 " close pane
 nnoremap <C-Q> :q<CR>
+
+" buffer management and navigation 
+nnoremap J :bp<CR>
+nnoremap K :bn<CR>
+nnoremap <A-b> :bd<CR>
+
+nnoremap b :ls<CR>
 
 " Press the space bar to type the : character in command mode.
 nnoremap <space> :
@@ -107,19 +111,21 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <leader>t :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
-" start NERDTree. If a file is specified, move the cursor to its window.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
-autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
-
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 
 " Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-" Set wal scheme
-colorscheme wal
-
 " Tagbar
 nmap <leader>b :TagbarToggle<CR>
+
+" vimtex
+let g:vimtex_view_method = 'zathura'
+let g:vimtex_compiler_method = 'latexmk'
+
+" Deocomplete
+let g:deoplete#enable_at_startup = 1
+
+" Set wal scheme
+colorscheme wal

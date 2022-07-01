@@ -2,13 +2,13 @@
     "width": 1900,
     "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["sway/mode","keyboard-state","sway/workspaces","backlight","pulseaudio"],
+    "modules-left": ["sway/mode","sway/workspaces","pulseaudio"],
     "modules-center": ["idle_inhibitor","clock"],
     "modules-right": ["battery","memory","cpu","network","tray"],
     // Modules configuration
     // Left
     "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
+        "format": "{}"
     },
     "sway/workspaces": {
         "disable-scroll": true,
@@ -16,31 +16,13 @@
         "format": "{name}",
         "numeric-first": false 
     },
-    "backlight": {
-        // "device": "acpi_video1",
-        "format": "{icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
-    },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "",
-        "format-source-muted": "",
-        "format-icons": {
-            "headphone": "",
-            "default": ["", "", ""]
-        },
+        "format": "{volume}%",
+        "format-bluetooth": "{volume}% ",
+        "format-bluetooth-muted": " ",
+        "format-muted": "",
         "on-click": "pavucontrol"
-    },
-    "custom/spotify": {
-        "interval": 1,
-        "return-type": "json",
-        "exec": "~/.config/waybar/modules/spotify.sh",
-        "exec-if": "pgrep spotify",
-        "escape": true
     },
     // Center
     "idle_inhibitor": {
