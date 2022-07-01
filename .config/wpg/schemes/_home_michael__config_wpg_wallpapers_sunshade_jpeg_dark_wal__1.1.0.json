@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/michael/.config/wpg/wallpapers/sunshade.jpeg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#070E02",
+        "foreground": "#e2d9c0",
+        "cursor": "#e2d9c0"
+    },
+    "colors": {
+        "color0": "#070E02",
+        "color1": "#AF541D",
+        "color2": "#91672D",
+        "color3": "#8F7549",
+        "color4": "#BC9B4E",
+        "color5": "#AF9355",
+        "color6": "#CDAD69",
+        "color7": "#e2d9c0",
+        "color8": "#9e9786",
+        "color9": "#AF541D",
+        "color10": "#91672D",
+        "color11": "#8F7549",
+        "color12": "#BC9B4E",
+        "color13": "#AF9355",
+        "color14": "#CDAD69",
+        "color15": "#e2d9c0"
+    }
+}

@@ -1,0 +1,15 @@
+style=/home/michael/.config/wofi/pywal.css
+color=/home/michael/.cache/wal/colors
+location=9
+show=run
+width=400
+height=60%
+always_parse_args=true
+show_all=false
+print_command=true
+layer=overlay
+insensitive=true
+term=alacritty
+prompt=
+hide_scroll=true
+line_wrap=word

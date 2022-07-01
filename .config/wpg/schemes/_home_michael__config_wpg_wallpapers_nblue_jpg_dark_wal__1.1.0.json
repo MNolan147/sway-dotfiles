@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/michael/.config/wpg/wallpapers/nblue.jpg",
+    "alpha": "90",
+
+    "special": {
+        "background": "#03060F",
+        "foreground": "#d7ffff",
+        "cursor": "#d7ffff"
+    },
+    "colors": {
+        "color0": "#03060F",
+        "color1": "#96776B",
+        "color2": "#2F506E",
+        "color3": "#59535E",
+        "color4": "#366F8B",
+        "color5": "#56748F",
+        "color6": "#5899A6",
+        "color7": "#a4d3d7",
+        "color8": "#09153a",
+        "color9": "#d3937a",
+        "color10": "#326899",
+        "color11": "#746085",
+        "color12": "#3994c1",
+        "color13": "#6097c8",
+        "color14": "#61d1e8",
+        "color15": "#d7ffff"
+    }
+}
