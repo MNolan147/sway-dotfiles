@@ -1,3 +1,5 @@
+include "$HOME/.cache/wal/colors-sway"
+
 # Font
 font pango:Inconsolata 13, DejaVu Sans Mono, Terminus 9
 
@@ -9,10 +11,10 @@ font pango:Inconsolata 13, DejaVu Sans Mono, Terminus 9
 #client.urgent           #906030 #C09030 #903018 #906030   #906030
 #client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
-# class                 border  bground     text        
-client.focused          $color6 $background $foreground 
-client.focused_inactive $color4 $background $foreground 
-client.unfocused        $color0 $background $foreground 
-client.urgent           $color1 $background $foreground 
+# class                 border  bground     text        indicator 
+client.focused          $color6 $background $foreground $color6
+client.focused_inactive $color4 $background $foreground $color4
+client.unfocused        $color0 $background $foreground $color0
+client.urgent           $color1 $background $foreground $color1
 
 client.background       $background 

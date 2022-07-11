@@ -10,6 +10,6 @@ print_command=true
 layer=overlay
 insensitive=true
 term=alacritty
-prompt=
+#prompt=
 hide_scroll=true
 line_wrap=word

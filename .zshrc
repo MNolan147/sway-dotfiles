@@ -9,10 +9,15 @@ export ZSH="$HOME/.oh-my-zsh"
 # z
 . ~/programs/z/z.sh
 # Set term colours
-(cat ~/.cache/wal/sequences &)
-source ~/.cache/wal/colors-tty.sh
+(/usr/bin/cat ~/.config/wpg/sequences &)
+#source ~/.cache/wal/colors-tty.sh
+#. ~/.cache/wal/colors.sh
+
 export TERM=xterm-256color
-. ~/.cache/wal/colors.sh
+
+# qt5
+export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_QPA_PLATFORM=wayland
 
 # Theme
 ZSH_THEME="lambda"
@@ -47,6 +52,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+source ~/.config/zsh/bwcompletions.zsh
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -76,8 +83,10 @@ alias chp="echo -e 'connect B8:F1:2A:75:A1:65' | bluetoothctl"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias u='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 
-if [ -f /bin/bat ] || [ -f /bin/batcat ]; then
+if  [ -f /bin/batcat ]; then
     alias cat='batcat'
+elif [ -f /bin/bat ]; then
+    alias cat='bat'
 else
     echo "bat not available, using cat"
 fi

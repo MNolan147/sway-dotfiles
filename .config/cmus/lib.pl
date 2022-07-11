@@ -122,6 +122,7 @@
 /home/michael/Music/Uploads from Aqare/What If Dire, Dire Docks was an EPIC Battle Theme.mp3
 /home/michael/Music/Uploads from Aqare/Wooded Kingdom (Super Mario Odyssey).mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - 'Counterattack'.mp3
+/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - The Final Battle ('After Despair and Hope').mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - Torna Title Theme.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 3 - Main Theme.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - A Tragic Decision.mp3
@@ -417,8 +418,6 @@
 /home/michael/Music/Xenoblade Chronicles 2 OST/Over the Sinful Entreaty.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Parting.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Past From Far Distance.mp3
-/home/michael/Music/Xenoblade Chronicles 2 OST/Praetor Amalthus - The Acting God .mp3
-/home/michael/Music/Xenoblade Chronicles 2 OST/Running .mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Sea of Clouds.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Shadow of the Lowlands.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Song of Giga Rosa.mp3
@@ -434,7 +433,6 @@
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Beginning of Darkness.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Decision (Chapter 10 Opening).mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Heroic Adventures.mp3
-/home/michael/Music/Xenoblade Chronicles 2 OST/The Impending Crisis .mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Past Revealed.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Power of Jin.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Tomorrow With You.mp3
@@ -447,7 +445,6 @@
 /home/michael/Music/Xenoblade Chronicles 2 OST/Titan Battleship.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Torigoth.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Torigoth   Night.mp3
-/home/michael/Music/Xenoblade Chronicles 2 OST/Walking With You .mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Wanted Nia.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/War and Peace (Mercenary Missions).mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/We Are The Chosen Ones.mp3
@@ -457,7 +454,6 @@
 /home/michael/Music/Xenoblade Chronicles 2 OST/Womb Center.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Xenoblade II - Where It All Began (beta).mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Xenoblade II - Where It All Began.mp3
-/home/michael/Music/Xenoblade Chronicles 2 OST/Yggdrasil (World Tree Theme) .mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/You Will Recall Our Names.mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/A Moment of Eternity (Cutscene Ver.).mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/Auresco, Royal Capital.mp3
@@ -471,6 +467,8 @@
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/Over Despair and Animus.mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/The Beginning of Our Memory.mp3
 /home/michael/Music/Xenoblade Chronicles 3/A Life Sent On.mp3
+/home/michael/Music/Xenoblade Chronicles 3/Keves Battle.mp3
+/home/michael/Music/Xenoblade Chronicles 3/The Weight of Life.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/A Friend On My Mind.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/Agniratha, Mechonis Capital.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/Agniratha, Mechonis Capital (Night).mp3

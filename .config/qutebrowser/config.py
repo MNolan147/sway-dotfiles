@@ -39,6 +39,7 @@ c.colors.webpage.darkmode.policy.page = 'smart'
 ##   - auto: Use the system-wide color scheme setting.
 ##   - light: Force a light theme.
 ##   - dark: Force a dark theme.
+# c.colors.webpage.preferred_color_scheme = 'light'
 c.colors.webpage.preferred_color_scheme = 'dark'
 
 ## Number of commands to save in the command history. 0: no history / -1:
@@ -539,7 +540,7 @@ c.qt.chromium.sandboxing = 'enable-all'
 ##   - qt-quick: Tell Qt Quick to use a software renderer instead of OpenGL. (`QT_QUICK_BACKEND=software`)
 ##   - chromium: Tell Chromium to disable GPU support and use Skia software rendering instead. (`--disable-gpu`)
 ##   - none: Don't force software rendering.
-# c.qt.force_software_rendering = 'none'
+c.qt.force_software_rendering = 'qt-quick'
 
 ## Enable smooth scrolling for web pages. Note smooth scrolling does not
 ## work with the `:scroll-px` command.
@@ -866,6 +867,10 @@ config.bind('J', 'tab-prev')
 # config.bind('yy', 'yank')
 # config.bind('{{', 'navigate prev -t')
 # config.bind('}}', 'navigate next -t')
+config.bind('pf', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -dip "Master Password" -PL 0"')
+config.bind('pFu', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -dip "Master Password" -PL 0" --username-only')
+config.bind('pFp', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -dip "Master Password" -PL 0" --password-only')
+config.bind('cs', 'config-source')
 
 ## Bindings for caret mode
 # config.bind('$', 'move-to-end-of-line', mode='caret')

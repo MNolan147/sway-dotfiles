@@ -23,45 +23,19 @@ include ~/.config/sway/keybinds
 
 ### Output configuration
 #
-# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/output * bg ~/Documents/Game\ Images/Outer\ Wilds/background_image.png fill
-output * bg ~/.cache/bgp/background.png fill
-# Example configuration:
-#
-# output HDMI-A-1 resolution 1440x
-#
-# You can get the names of your outputs by running: swaymsg -t get_outputs
+#output HDMI-A-1 resolution 1440x900
+output "*" bg ~/.config/wpg/.current fill
 
 ### Idle configuration
 #
-# Example configuration:
-#
-exec swayidle -w \
-    timeout 300 'swaylock -f -i ~/.cache/bgp/lockscreen.png' \
+exec_always killall swayidle && swayidle -w \
+    timeout 300 'swaylock -f --effect-blur 10x3 -i ~/.config/wpg/.current'\
     timeout 360 'swaymsg "output * dpms off"' \
     resume 'swaymsg "output * dpms on"' \
-    before-sleep 'swaylock -f -i ~/.cache/bgp/lockscreen.png' 
-
-#inhibit_idle fullscreen
-
-#
-# This will lock your screen after 300 seconds of inactivity, then turn off
-# your displays after another 60 seconds, and turn your screens back on when
-# resumed. It will also lock your screen before your computer goes to sleep.
+    before-sleep 'swaylock -f --effect-blur 10x3 -i ~/.config/wpg/.current' 
 
 ### Input configuration
 #
-# Example configuration:
-#
-#   input "2:14:SynPS/2_Synaptics_TouchPad" {
-#       dwt enabled
-#       tap enabled
-#       natural_scroll enabled
-#       middle_emulation enabled
-#   }
-#
-# You can get the names of your inputs by running: swaymsg -t get_inputs
-# Read `man 5 sway-input` for more information about this section.
-
 input type:touchpad {
     tap enabled
     natural_scroll enabled
@@ -87,7 +61,10 @@ input type:pointer {
     pointer_accel 0.25
 }
 
-seat * hide_cursor 10000
+seat * hide_cursor 7500
+for_window [class=".*"] inhibit_idle fullscreen
+for_window [app_id=".*"] inhibit_idle fullscreen
+
 #
 # Auto-start processes
 #
@@ -117,21 +94,15 @@ seat * hide_cursor 10000
     # Font
     font "inconsolata nerd font mono", "fontawesome"
 
-    # Colour Scheme
-    # class                 border  bground text    indicator child_border
-    #client.focused          304878 303060 FFFFFF 304878 306090
-    #client.focused_inactive 604848 A89090 000000 604848   784830
-    #client.unfocused        181830 180018 888888 181830   222222
-    #client.urgent           906030 C09030 903018 906030   906030
-    #client.placeholder      000000 0C0C0C FFFFFF 000000   0C0C0C
+     #Colour Scheme
 
-    # class                  bground     border  text        
-    client.focused           $background $color2 $foreground 
-    client.focused_inactive  $background $color0 $foreground 
-    client.unfocused         $background $color0 $foreground 
-    client.urgent            $background $color3 $foreground 
+    # class                  bground     border  text        indicator 
+    client.focused           $background $color2 $foreground $color2
+    client.focused_inactive  $background $color0 $foreground $color0
+    client.unfocused         $background $color0 $foreground $color0
+    client.urgent            $background $color3 $foreground $color3
 
-    client.background       $background 
+    client.background        $background 
 
 #
 # Opacity
@@ -140,6 +111,7 @@ seat * hide_cursor 10000
     for_window [class=".*"] opacity $opacity
     for_window [app_id=".*"] opacity $opacity
     #for_window [app_id="qutebrowser"] opacity 1 
+    #for_window [app_id="firefox"] opacity 1 
 
 bar {
     swaybar_command waybar
