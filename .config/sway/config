@@ -10,7 +10,7 @@ set $up k
 set $right l
 
 # Your preferred terminal emulator
-set $term /usr/local/bin/alacritty 
+set $term /usr/bin/kitty
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
@@ -28,7 +28,8 @@ output "*" bg ~/.config/wpg/.current fill
 
 ### Idle configuration
 #
-exec_always killall swayidle && swayidle -w \
+exec_always killall swayidle
+exec_always swayidle -w \
     timeout 300 'swaylock -f --effect-blur 10x3 -i ~/.config/wpg/.current'\
     timeout 360 'swaymsg "output * dpms off"' \
     resume 'swaymsg "output * dpms on"' \
@@ -62,9 +63,18 @@ input type:pointer {
 }
 
 seat * hide_cursor 7500
-for_window [class=".*"] inhibit_idle fullscreen
-for_window [app_id=".*"] inhibit_idle fullscreen
 
+#
+# Window rules
+#
+    for_window [class=".*"] inhibit_idle fullscreen
+    for_window [app_id=".*"] inhibit_idle fullscreen
+
+    for_window [app_id="wpg"] floating enable
+    for_window [title="wpgterm"] move scratchpad
+    for_window [title="franger"] floating enable
+    for_window [title="franger"] resize set width 900 
+    for_window [title="franger"] resize set height 600 
 #
 # Auto-start processes
 #
@@ -83,16 +93,16 @@ for_window [app_id=".*"] inhibit_idle fullscreen
 #
     default_border pixel 1
 
-#    smart_gaps on
+    smart_gaps on
     smart_borders on
-#    gaps inner  10
+    #gaps inner  10
 #    gaps vertical -5
-#    gaps outer 1
+    #gaps outer 1
 #
 # Theming
 #
     # Font
-    font "inconsolata nerd font mono", "fontawesome"
+    font "inconsolata nerd font mono medium"
 
      #Colour Scheme
 

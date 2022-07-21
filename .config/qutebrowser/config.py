@@ -463,14 +463,14 @@ c.fileselect.single_file.command = ['alacritty', '-e', 'ranger', '--choosefile={
 ## font setting, it's replaced with the fonts listed here. If set to an
 ## empty value, a system-specific monospace default is used.
 ## Type: List of Font, or Font
-c.fonts.default_family = ['inconsolata nerd font mono']
+c.fonts.default_family = ['inconsolata nerd font mono medium']
 
 ## Default font size to use. Whenever "default_size" is used in a font
 ## setting, it's replaced with the size listed here. Valid values are
 ## either a float value with a "pt" suffix, or an integer value with a
 ## "px" suffix.
 ## Type: String
-c.fonts.default_size = '10pt'
+c.fonts.default_size = '8pt'
 
 ## When a hint can be automatically followed without pressing Enter.
 ## Type: String
@@ -867,9 +867,9 @@ config.bind('J', 'tab-prev')
 # config.bind('yy', 'yank')
 # config.bind('{{', 'navigate prev -t')
 # config.bind('}}', 'navigate next -t')
-config.bind('pf', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -dip "Master Password" -PL 0"')
-config.bind('pFu', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -dip "Master Password" -PL 0" --username-only')
-config.bind('pFp', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -dip "Master Password" -PL 0" --password-only')
+config.bind('pf', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -diPp Master Password"')
+config.bind('pFu', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -diPp Master Password" --username-only')
+config.bind('pFp', 'spawn --userscript qute-bitwarden --dmenu-invocation "wofi -dip Bitwarden" --password-prompt-invocation "wofi -diPp Master Password" --password-only')
 config.bind('cs', 'config-source')
 
 ## Bindings for caret mode
