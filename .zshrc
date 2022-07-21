@@ -8,10 +8,10 @@ export ZSH="$HOME/.oh-my-zsh"
 
 # z
 . ~/programs/z/z.sh
-
 # Set term colours
 (/usr/bin/cat ~/.config/wpg/sequences &)
-source ~/.cache/wal/colors-tty.sh
+#source ~/.cache/wal/colors-tty.sh
+#. ~/.cache/wal/colors.sh
 
 export TERM=xterm-256color
 
@@ -113,3 +113,6 @@ fi
 
 alias ls="ls -Nh"
 eval $(thefuck --alias)
+alias zathura=~/.local/bin/zathura
+alias m='tmux select-window -t $(tmux neww -dPt $(tmux new -dPt main)) && tmux attach -t $(tmux list-sessions -F "#{?#{m/r:^main*,#{session_name}},#{session_name},}" | awk /main/ | tail -n 1)'
+ 

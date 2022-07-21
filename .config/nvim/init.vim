@@ -49,14 +49,10 @@ call plug#begin()
     Plug 'Shougo/neosnippet.vim'
     Plug 'Shougo/neosnippet-snippets'
     Plug 'lervag/vimtex'
-    Plug 'elkowar/yuck.vim'
 call plug#end()
 
-" clear highlighting
-nnoremap ch :noh<CR>
-
 " open term
-nnoremap <leader>\ :term
+nnoremap <leader>\ :term 
 
 " move line or visually selected block - alt+j/k
 inoremap <A-j> <Esc>:m .+1<CR>==gi

@@ -11,7 +11,6 @@
 /home/michael/Music/Uploads from Aqare/Cascade Kingdom (Super Mario Odyssey).mp3
 /home/michael/Music/Uploads from Aqare/Champion Red.mp3
 /home/michael/Music/Uploads from Aqare/Dark Souls 3 - Soul of Cinder.mp3
-/home/michael/Music/Uploads from Aqare/Dark Souls III - 'Slave Knight Gael'.mp3
 /home/michael/Music/Uploads from Aqare/DELTARUNE - Attack of the Killer Queen.mp3
 /home/michael/Music/Uploads from Aqare/Deltarune - BIG SHOT(Spamton NEO Battle, Chapter 2).mp3
 /home/michael/Music/Uploads from Aqare/Dialga's Fight To the Finish(Pokémon Mystery Dungeon - Explorers of Time.mp3
@@ -353,119 +352,6 @@
 /home/michael/Music/The Legend of Zelda - Breath of the Wild Soundtrack/Yunobo's Theme.mp3
 /home/michael/Music/The Legend of Zelda - Breath of the Wild Soundtrack/Zora's Domain - Day.mp3
 /home/michael/Music/The Legend of Zelda - Breath of the Wild Soundtrack/Zora's Domain - Night.mp3
-/home/michael/Music/Dark Souls Soundtrack/Bed Of Chaos.mp3
-/home/michael/Music/Dark Souls Soundtrack/Bell Gargoyle.mp3
-/home/michael/Music/Dark Souls Soundtrack/Ceaseless Discharge.mp3
-/home/michael/Music/Dark Souls Soundtrack/Centipede Demon.mp3
-/home/michael/Music/Dark Souls Soundtrack/Chaos Witch Quelaag.mp3
-/home/michael/Music/Dark Souls Soundtrack/Crossbreed Priscilla.mp3
-/home/michael/Music/Dark Souls Soundtrack/Dark Sun Gwyndolin.mp3
-/home/michael/Music/Dark Souls Soundtrack/Daughters of Chaos.mp3
-/home/michael/Music/Dark Souls Soundtrack/Firelink Shrine.mp3
-/home/michael/Music/Dark Souls Soundtrack/Four Kings.mp3
-/home/michael/Music/Dark Souls Soundtrack/Gaping Dragon.mp3
-/home/michael/Music/Dark Souls Soundtrack/Gravelord Nito.mp3
-/home/michael/Music/Dark Souls Soundtrack/Great Grey Wolf Sif.mp3
-/home/michael/Music/Dark Souls Soundtrack/Gwynevere, Princess of Sunlight.mp3
-/home/michael/Music/Dark Souls Soundtrack/Gwyn, Lord of Cinder.mp3
-/home/michael/Music/Dark Souls Soundtrack/Iron Golem.mp3
-/home/michael/Music/Dark Souls Soundtrack/Nameless Song.mp3
-/home/michael/Music/Dark Souls Soundtrack/Ornstein & Smough.mp3
-/home/michael/Music/Dark Souls Soundtrack/Pinwheel.mp3
-/home/michael/Music/Dark Souls Soundtrack/Prologue.mp3
-/home/michael/Music/Dark Souls Soundtrack/Seath the Scaleless.mp3
-/home/michael/Music/Dark Souls Soundtrack/Taurus Demon.mp3
-/home/michael/Music/Dark Souls Soundtrack/The Ancient Dragon.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Aava, the King's Pet.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Aldia, Scholar of the First Sin.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Ancient Dragon.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Bearer of the Curse.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Belfry Gargoyle.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Burnt Ivory King.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Child of Dark.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Covetous Demon.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Dark Chasm of Old.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Darklurker.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Demon of Song.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Departure.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Dragon Memories.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Dragonrider.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Duel.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Elana, the Squalid Queen.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Executioner's Chariot.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Fire Keepers.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Flexile Sentry.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Fume Knight.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Guardian Dragon.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/King Vendrick.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Longing (Credits Theme).mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Looking Glass Knight.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Main Menu.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Majula (Remastered).mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Milfanito.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Mytha, the Baneful Queen.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Nashandra.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Nowhere.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Old Dragonslayer.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Old Iron King.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Queen of Drangleic.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Remains.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Royal Rat Authority.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Royal Rat Vanguard.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Ruin Sentinel.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Scorpioness Najka.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Sin and Crowns.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Sinh, the Slumbering Dragon.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Sir Alonne.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Skeleton Lord.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Sparring.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/The Duke's Dear Freja.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/The Last Giant.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/The Lost Sinner.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/The Pursuer.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/The Rotten.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Throne Defender, Throne Watcher.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Velstadt, the Royal Aegis.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Worshippers of the Dead.mp3
-/home/michael/Music/Dark Souls 2 Complete Soundtrack [HQ]/Zallen and Lud.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Abyss Watchers (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Aldrich, Devourer of Gods (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Ancient Wyvern (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Champion's Gravetender.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Crystal Sages (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Curse-rotted Greatwood (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Dancer of the Boreal Valley.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Darkeater Midir (Calm).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Darkeater Midir.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Dark Souls III OST Main Theme.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Deacons of the Deep (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Demon in Pain & Demon from Below.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Demon Prince.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Dragonslayer Armour (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/E3 2015 Debut Trailer.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Epilogue #2.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Epilogue.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Firelink Shrine.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/For The Dark Soul.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Gravetender Greatwolf.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Halflight, Spear of The Church (Calm).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Halflight, Spear of The Church.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/High Lord Wolnir (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Iudex Gundyr (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Lorian, Elder Prince & Lothric, Younger Prince (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Nameless King (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Oceiros, the Consumed King (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Old Demon King (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Only Embers Remain.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Pontiff Sulyvahn (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Premonition.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Prologue.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Secret Betrayal.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Sister Friede.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Slave Knight Gael.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Soul of Cinder.mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Vordt of the Boreal Valley (Complete).mp3
-/home/michael/Music/Dark Souls 3 Original Soundtrack/Yhorm the Giant (Complete).mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/A Brewing Storm.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/A Faint Hope.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/After Despair and Hope (Final Boss Theme).mp3
