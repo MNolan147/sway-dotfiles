@@ -1,1 +1,19 @@
-/home/michael/.cache/wal/cava
+## Configuration file for CAVA. Default values are commented out. Use either ';' or '#' for commenting.
+
+
+[general]
+# The number of bars (0-200). 0 sets it to auto (fill up console).
+# Bars' width and space between bars in number of characters.
+bars = 0
+bar_width = 1 
+
+[color]
+
+# background = default
+# foreground = '#336291'
+
+[smoothing]
+
+# Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
+;monstercat = 1
+;waves = 1 

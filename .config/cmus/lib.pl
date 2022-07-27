@@ -1,3 +1,55 @@
+/home/michael/Music/Outer Wilds OST/14.3 Billion Years (Credits).mp3
+/home/michael/Music/Outer Wilds OST/22 Minutes.mp3
+/home/michael/Music/Outer Wilds OST/Arrow of Time.mp3
+/home/michael/Music/Outer Wilds OST/A Terrible Fate.mp3
+/home/michael/Music/Outer Wilds OST/Campfire Song.mp3
+/home/michael/Music/Outer Wilds OST/Castaways.mp3
+/home/michael/Music/Outer Wilds OST/Curiosity.mp3
+/home/michael/Music/Outer Wilds OST/Dark Bramble.mp3
+/home/michael/Music/Outer Wilds OST/End Times.mp3
+/home/michael/Music/Outer Wilds OST/Final Voyage.mp3
+/home/michael/Music/Outer Wilds OST/Giant's Deep.mp3
+/home/michael/Music/Outer Wilds OST/Into the Wilds.mp3
+/home/michael/Music/Outer Wilds OST/Let There Be Light.mp3
+/home/michael/Music/Outer Wilds OST/Main Title.mp3
+/home/michael/Music/Outer Wilds OST/Morning.mp3
+/home/michael/Music/Outer Wilds OST/Nomai Ruins.mp3
+/home/michael/Music/Outer Wilds OST/Outer Wilds.mp3
+/home/michael/Music/Outer Wilds OST/Space.mp3
+/home/michael/Music/Outer Wilds OST/The Ancient Glade.mp3
+/home/michael/Music/Outer Wilds OST/The Ash Twin Project.mp3
+/home/michael/Music/Outer Wilds OST/The Museum.mp3
+/home/michael/Music/Outer Wilds OST/The Nomai.mp3
+/home/michael/Music/Outer Wilds OST/The Search.mp3
+/home/michael/Music/Outer Wilds OST/The Sun Station.mp3
+/home/michael/Music/Outer Wilds OST/The Uncertainty Principle.mp3
+/home/michael/Music/Outer Wilds OST/Timber Hearth.mp3
+/home/michael/Music/Outer Wilds OST/Travelers.mp3
+/home/michael/Music/Outer Wilds OST/We Have Liftoff.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/A Dream of Home.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Dark Passage.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Departure.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Echoes of the Eye.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Elegy for the Rings.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/End of the Wilds.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Eternal Halls.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Fear and Ashes.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Into Shadow.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Into the Vault.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Outer Wilds Echoes of the Eye Piano Cover.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Postlude.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/River’s End.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Sealed Away.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Secret Ways.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Strange Flames.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Test Chamber Three.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/The First Seekers.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/The Forbidden Archives.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/The Lost Waltz.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/The Premonition.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/The River.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/The Sound of Water.mp3
+/home/michael/Music/Outer Wilds: Echos of the Eye OST/Travelers’ Encore.mp3
 /home/michael/Music/Uploads from Aqare/All Fairy Fountain Themes(The Legend of Zelda).mp3
 /home/michael/Music/Uploads from Aqare/ALL Smash Bros. Ultimate DLC Victory Themes.mp3
 /home/michael/Music/Uploads from Aqare/ALL Smash Bros. Ultimate Victory Themes.mp3
@@ -145,6 +197,88 @@
 /home/michael/Music/Uploads from Aqare/Zelda Ocarina of Time - Kakariko Village Theme.mp3
 /home/michael/Music/Hollow Knight Silksong/Lace.mp3
 /home/michael/Music/Hollow Knight Silksong/Bonebottom.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Arena Lobby.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Autumn's Fall.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Autumn's Rise (Early-Access, 2015).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Autumn's Rise.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Awakened.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Awakened (Techdemo++, 2013).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Azure Archipelago.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Ba'kii Kum.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Basin Keep.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Battle 1.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Battle 2.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Battle 3.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Battle (Techdemo++, 2013).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Bergen Trail.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Bergen Village.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Boss Battle.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Boss Rush.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Briefing.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Cargo Hold.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Cargo Hold (Techdemo++, 2013).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Challenge 1.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Challenge 2.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Challenge (Early-Access, 2015).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Confrontation.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/CrossCounter!.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Distant Future.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Ending.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Escape Again.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Escape.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Exponential Conclusion.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Exponential Growth.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Fierce Battle.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/First Scholars.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Gaia's Garden.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Glitch.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Hack Your Way!.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Imprisoned.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Improvising.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Infiltration.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Lea!.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Lucid Dream.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Maroon Valley.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/M.S. Solar (Early-Access, 2015).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/M.S. Solar.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Mysterious Place.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Newcomer's Bridge.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Old Hideout.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/One Last Trial.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Past Events.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/P.G. Dungeon (Early-Access, 2015).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Promo Trailer.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Raid.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Rhombus Dungeon.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Rhombus Square.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Rookie Harbor.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Sadness.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Sapphire Ridge.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Separated Again.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Shizuka.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Shocking Reveal.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/S-Rank Battle.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Taking What Does Not Belong.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Temple Mine.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Temple of the Crater.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Temple of the Grand Tree.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Temple of the Lake.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Temple of the Valley.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Temple of Thunder.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/The Experience.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/The Path of Justice.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/The Ultimate Experience.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Title (Early-Access, 2015).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Title.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Title (Techdemo++, 2013).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Travelling Together.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/True Intention.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Unknown (Unused).mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Valse d'Ahoge.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Vermillion Dungeon.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Vermillion Wasteland.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Welcome to CrossWorlds.mp3
+/home/michael/Music/CrossCode (Original Game Soundtrack _ OST)/Welcome to CrossWorlds (Unused, 2015).mp3
 /home/michael/Music/Xenoblade Chronicles X Original Soundtrack/46- -ri9 (Sylvalum Day).mp3
 /home/michael/Music/Xenoblade Chronicles X Original Soundtrack/46- -ri9 (Sylvalum Night).mp3
 /home/michael/Music/Xenoblade Chronicles X Original Soundtrack/96- -rip (Cauldros Day).mp3

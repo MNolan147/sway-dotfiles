@@ -103,12 +103,6 @@ else
     echo "nvim not available, using vim"
 fi
 
-
-if [ -f /bin/btop ]; then
-    alias btop='btop -lc'
-else
-    echo "btop unavailable"
-fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias ls="ls -Nh"

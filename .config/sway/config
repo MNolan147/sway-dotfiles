@@ -102,9 +102,9 @@ seat * hide_cursor 7500
 # Theming
 #
     # Font
-    font "inconsolata nerd font mono medium"
+    font "inconsolata nerd font mono medium 9"
 
-     #Colour Scheme
+    #Colour Scheme
 
     # class                  bground     border  text        indicator 
     client.focused           $background $color2 $foreground $color2
@@ -123,8 +123,7 @@ seat * hide_cursor 7500
     #for_window [app_id="qutebrowser"] opacity 1 
     #for_window [app_id="firefox"] opacity 1 
 
-bar {
-    swaybar_command waybar
-}
+exec waybar
+exec_always killall -SIGUSR2 waybar
 
 include /etc/sway/config.d/*

@@ -2,23 +2,24 @@
 
 * {
     border-radius: 0;
-    font-family: 'Inconsolata Nerd Font Mono, Font Awesome';
-    font-size:     15px;
+    font-family: 'Inconsolata Nerd Font Mono Medium';
+    font-size:     12px;
     box-shadow:    none;
     text-shadow:   none;
     transition-duration: 0s;
 }
 
-window {
-    color:      @color7;
-    background: @background;
-    border: 5px solid;
-    border-color: @background;
-}
+/*window {*/
+    /*color:      @color7;*/
+    /*background: @background;*/
+    /*border: 5px solid;*/
+    /*border-color: @background;*/
+/*}*/
 
-window#waybar.solo {
+window#waybar {
     color:      @color7;
     background: @background;
+    opacity:    0.95;
     border: 5px solid;
     border-color: @background;
 }
@@ -31,6 +32,7 @@ window#waybar.solo {
     padding:    0 5px;
     color:      @color7; 
     background: @background;
+    opacity:    0.6;
 }
 
 #workspaces button.visible {
@@ -39,13 +41,14 @@ window#waybar.solo {
 
 #workspaces button.focused {
     border-top: 3px solid @color7;
+    opacity:    1;
 }
 
 #workspaces button.urgent {
     color:     @color1; 
 }
 
-#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-spotify, #custom-weather, #custom-mail {
+#mode, #battery, #cpu, #memory, #network, #pulseaudio,  #backlight, #custom-storage, #custom-spotify, #custom-weather, #custom-mail {
     margin:     0px 6px 0px 10px;
     min-width:  25px;
 }

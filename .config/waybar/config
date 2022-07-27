@@ -1,5 +1,5 @@
 { 
-    "width": 1900,
+    "width": 0,
     "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["sway/mode","sway/workspaces","pulseaudio"],
@@ -17,11 +17,11 @@
         "numeric-first": false 
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
+        "scroll-step": 5, // %, can be a float
         "format": "{volume}%",
         "format-bluetooth": "{volume}% ",
         "format-bluetooth-muted": " ",
-        "format-muted": "",
+        "format-muted": "",
         "on-click": "pavucontrol"
     },
     // Center
