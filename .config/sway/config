@@ -123,7 +123,7 @@ seat * hide_cursor 7500
     #for_window [app_id="qutebrowser"] opacity 1 
     #for_window [app_id="firefox"] opacity 1 
 
-exec waybar
+exec waybar &
 exec_always killall -SIGUSR2 waybar
 
 include /etc/sway/config.d/*

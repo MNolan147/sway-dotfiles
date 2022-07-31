@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-wpg -rs 'Fly_With_the_Moon' 'Fly_With_the_Moon'
+wpg -rsL 'Woman_on_the_Balcony' 'Woman_on_the_Balcony'
