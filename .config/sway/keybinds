@@ -105,7 +105,8 @@
 # Open commonly used programs
 #
     bindsym $mod+w exec $term --session ~/.config/kitty/ranger_session --title "franger"
-    bindsym $mod+a exec qutebrowser
+    #bindsym $mod+a exec qutebrowser
+    bindsym $mod+a exec firefox
     bindsym $mod+s exec $term --session ~/.config/kitty/config_session
     bindsym $mod+d exec libreoffice
 

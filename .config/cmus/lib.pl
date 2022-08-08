@@ -50,58 +50,57 @@
 /home/michael/Music/Outer Wilds: Echos of the Eye OST/The River.mp3
 /home/michael/Music/Outer Wilds: Echos of the Eye OST/The Sound of Water.mp3
 /home/michael/Music/Outer Wilds: Echos of the Eye OST/Travelers’ Encore.mp3
-/home/michael/Music/Uploads from Aqare/All Fairy Fountain Themes(The Legend of Zelda).mp3
+/home/michael/Music/Uploads from Aqare/All Fairy Fountain Themes (The Legend of Zelda)File Select Themes.mp3
 /home/michael/Music/Uploads from Aqare/ALL Smash Bros. Ultimate DLC Victory Themes.mp3
 /home/michael/Music/Uploads from Aqare/ALL Smash Bros. Ultimate Victory Themes.mp3
-/home/michael/Music/Uploads from Aqare/Animal Crossing New Horizons - Piano Medley .mp3
-/home/michael/Music/Uploads from Aqare/A Settlement in the Red Bluffs(Octopath Traveler).mp3
+/home/michael/Music/Uploads from Aqare/Animal Crossing New Horizons - Piano Medley [5000 Subscriber Special].mp3
+/home/michael/Music/Uploads from Aqare/A Settlement in the Red Bluffs (Octopath Traveler).mp3
 /home/michael/Music/Uploads from Aqare/Beast Ganon (Zelda Breath of the Wild).mp3
-/home/michael/Music/Uploads from Aqare/Bloodborne - Ludwig, The Accursed + Holy Blade(The Old Hunters).mp3
+/home/michael/Music/Uploads from Aqare/Bloodborne - Ludwig, The Accursed + Holy Blade (The Old Hunters).mp3
 /home/michael/Music/Uploads from Aqare/Blue Archive - Neo City Dive.mp3
 /home/michael/Music/Uploads from Aqare/Blue Archive - Rolling Beat.mp3
-/home/michael/Music/Uploads from Aqare/Bob-Omb Battlefield(Super Mario 64).mp3
+/home/michael/Music/Uploads from Aqare/Bob-Omb Battlefield (Super Mario 64).mp3
 /home/michael/Music/Uploads from Aqare/Cascade Kingdom (Super Mario Odyssey).mp3
-/home/michael/Music/Uploads from Aqare/Champion Red.mp3
+/home/michael/Music/Uploads from Aqare/Champion Red_Blue Battle (Pokemon Sun_Moon).mp3
 /home/michael/Music/Uploads from Aqare/Dark Souls 3 - Soul of Cinder.mp3
 /home/michael/Music/Uploads from Aqare/Dark Souls III - 'Slave Knight Gael'.mp3
 /home/michael/Music/Uploads from Aqare/DELTARUNE - Attack of the Killer Queen.mp3
-/home/michael/Music/Uploads from Aqare/Deltarune - BIG SHOT(Spamton NEO Battle, Chapter 2).mp3
-/home/michael/Music/Uploads from Aqare/Dialga's Fight To the Finish(Pokémon Mystery Dungeon - Explorers of Time.mp3
+/home/michael/Music/Uploads from Aqare/Deltarune - BIG SHOT (Spamton NEO Battle, Chapter 2).mp3
+/home/michael/Music/Uploads from Aqare/Dialga's Fight To the Finish (Pokémon Mystery Dungeon - Explorers of Time_Darkness).mp3
 /home/michael/Music/Uploads from Aqare/DONKEY KONG COUNTRY 2 - 'Hot Head Bop'.mp3
 /home/michael/Music/Uploads from Aqare/Donkey Kong Country - Aquatic Ambience.mp3
 /home/michael/Music/Uploads from Aqare/Dragon Roost Island, But It's Groovy As Hell.mp3
-/home/michael/Music/Uploads from Aqare/Dragon Roost Island(The Legend of Zelda - Wind Waker).mp3
-/home/michael/Music/Uploads from Aqare/Drifting Souls'- Xenoblade Chronicles 2.mp3
+/home/michael/Music/Uploads from Aqare/Dragon Roost Island (The Legend of Zelda - Wind Waker).mp3
+/home/michael/Music/Uploads from Aqare/Drifting Souls' - Xenoblade Chronicles 2.mp3
 /home/michael/Music/Uploads from Aqare/Eastward - 'Woody Path'.mp3
-/home/michael/Music/Uploads from Aqare/Elden Ring - Godrick, The Grafted(Second Phase).mp3
+/home/michael/Music/Uploads from Aqare/Elden Ring - Godrick, The Grafted (Second Phase).mp3
 /home/michael/Music/Uploads from Aqare/Elden Ring - Main Theme.mp3
 /home/michael/Music/Uploads from Aqare/Elysium of the Blue Sky (Xenoblade Chronicles 2).mp3
 /home/michael/Music/Uploads from Aqare/Emotional Fantasy Remix - Besaid Island (Final Fantasy X).mp3
 /home/michael/Music/Uploads from Aqare/Engage The Enemy (Xenoblade Chronicles).mp3
-/home/michael/Music/Uploads from Aqare/Eterna Forest Theme(Pokémon Diamond.mp3
+/home/michael/Music/Uploads from Aqare/Eterna Forest Theme (Pokémon Diamond_Pearl).mp3
 /home/michael/Music/Uploads from Aqare/Fire Emblem Echoes - The Scions' Dance in Purgatory.mp3
-/home/michael/Music/Uploads from Aqare/Fonsett Village (Day)(Xenoblade Chronicles 2).mp3
-/home/michael/Music/Uploads from Aqare/Forest Interlude(Donkey Kong Country 2).mp3
-/home/michael/Music/Uploads from Aqare/For Redemption + Decisive Battle Theme 2(Octopath Traveler).mp3
-/home/michael/Music/Uploads from Aqare/Game Breaker - Battle Theme.mp3
-/home/michael/Music/Uploads from Aqare/Game Breaker - Duty of Mankind.mp3
-/home/michael/Music/Uploads from Aqare/GAME BREAKER - Main Theme.mp3
+/home/michael/Music/Uploads from Aqare/Fonsett Village (Day) (Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/Forest Interlude (Donkey Kong Country 2).mp3
+/home/michael/Music/Uploads from Aqare/For Redemption + Decisive Battle Theme 2 (Octopath Traveler).mp3
+/home/michael/Music/Uploads from Aqare/Game Breaker - Battle Theme [Enemy Breaker].mp3
+/home/michael/Music/Uploads from Aqare/Game Breaker - Duty of Mankind (Piano Cover).mp3
+/home/michael/Music/Uploads from Aqare/GAME BREAKER - Main Theme [True Self].mp3
 /home/michael/Music/Uploads from Aqare/Game Breaker - Reflection of Truth (Kunai's Base).mp3
-/home/michael/Music/Uploads from Aqare/Game Breaker - Way of Cheating.mp3
-/home/michael/Music/Uploads from Aqare/GAME BREAKER - Znarferino.mp3
-/home/michael/Music/Uploads from Aqare/Gerudo Valley(Zelda Ocarina of Time).mp3
+/home/michael/Music/Uploads from Aqare/Game Breaker - Way of Cheating (Piano Cover).mp3
+/home/michael/Music/Uploads from Aqare/GAME BREAKER - Znarferino [Znarf's Theme].mp3
+/home/michael/Music/Uploads from Aqare/Gerudo Valley (Zelda Ocarina of Time).mp3
 /home/michael/Music/Uploads from Aqare/Guardian Battle (Zelda - Breath of the Wild).mp3
 /home/michael/Music/Uploads from Aqare/Hydrocity Zone Act 2 (Sonic 3).mp3
-/home/michael/Music/Uploads from Aqare/Hyrule Castle(Zelda Breath of the Wild).mp3
+/home/michael/Music/Uploads from Aqare/Hyrule Castle (Zelda Breath of the Wild).mp3
 /home/michael/Music/Uploads from Aqare/Id - Hope (Fire Emblem Awakening).mp3
-/home/michael/Music/Uploads from Aqare/I'M MAKING A VIDEO GAME!   - Kickstarter Trailer.mp3
-/home/michael/Music/Uploads from Aqare/Kingdom of Tantal(Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/Kingdom of Tantal (Xenoblade Chronicles 2).mp3
 /home/michael/Music/Uploads from Aqare/Lake Kingdom (Super Mario Odyssey).mp3
 /home/michael/Music/Uploads from Aqare/League of Legends - Camille Theme PIANO DUO feat. Project.mp3
 /home/michael/Music/Uploads from Aqare/Lon Lon Ranch (Zelda - Ocarina of Time).mp3
-/home/michael/Music/Uploads from Aqare/Mario Kart DS - Credits (Full Version) On Piano.mp3
-/home/michael/Music/Uploads from Aqare/Marnie Final Battle Theme- Pokémon Sword & Shield.mp3
-/home/michael/Music/Uploads from Aqare/Marvel's Spider-Man Main Theme(PS4).mp3
+/home/michael/Music/Uploads from Aqare/Mario Kart DS - Credits (Full Version).mp3
+/home/michael/Music/Uploads from Aqare/Marnie Final Battle Theme - Pokémon Sword & Shield.mp3
+/home/michael/Music/Uploads from Aqare/Marvel's Spider-Man Main Theme (PS4).mp3
 /home/michael/Music/Uploads from Aqare/Mechanical Rhythm (Xenoblade Chronicles).mp3
 /home/michael/Music/Uploads from Aqare/Megalovania (Undertale).mp3
 /home/michael/Music/Uploads from Aqare/Metal Sonic Boss (Sonic Mania).mp3
@@ -113,31 +112,31 @@
 /home/michael/Music/Uploads from Aqare/Octopath Traveler - Battle Theme 1.mp3
 /home/michael/Music/Uploads from Aqare/Octopath Traveler - Flamesgrace, Guiding Light.mp3
 /home/michael/Music/Uploads from Aqare/Octopath Traveler - Primrose Piano Medley (Battle At Journey's End, For Revenge).mp3
-/home/michael/Music/Uploads from Aqare/One Last You(Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/One Last You (Xenoblade Chronicles 2).mp3
 /home/michael/Music/Uploads from Aqare/Ori and the Blind Forest - Light of Nibel.mp3
 /home/michael/Music/Uploads from Aqare/Piranha Plant Lullaby - Emotional Fantasy Remix (for Solo Piano).mp3
-/home/michael/Music/Uploads from Aqare/Pokémon Black and White - 'The End'(Credits Theme).mp3
+/home/michael/Music/Uploads from Aqare/Pokémon Black and White - 'The End' (Credits Theme).mp3
 /home/michael/Music/Uploads from Aqare/Pokémon Brilliant Diamond and Shining Pearl - Sunyshore City (Day).mp3
-/home/michael/Music/Uploads from Aqare/Pokémon Brilliant Diamond.mp3
+/home/michael/Music/Uploads from Aqare/Pokémon Brilliant Diamond_Shining Pearl - Canalave City.mp3
 /home/michael/Music/Uploads from Aqare/Pokémon Brilliant Diamond_Shining Pearl - Snowpoint City (Day).mp3
 /home/michael/Music/Uploads from Aqare/Pokémon Diamond and Pearl - Twinleaf Town (Day).mp3
-/home/michael/Music/Uploads from Aqare/Pokemon Diamond.mp3
-/home/michael/Music/Uploads from Aqare/Pokémon Diamond.mp3
+/home/michael/Music/Uploads from Aqare/Pokémon Diamond_Pearl - Jubilife City.mp3
 /home/michael/Music/Uploads from Aqare/Pokémon Diamond_Pearl - Lake Theme.mp3
+/home/michael/Music/Uploads from Aqare/Pokemon Diamond_Pearl - Route 216.mp3
 /home/michael/Music/Uploads from Aqare/Pokémon Mystery Dungeon - Sky Tower.mp3
-/home/michael/Music/Uploads from Aqare/Pokémon Omega Ruby.mp3
+/home/michael/Music/Uploads from Aqare/Pokémon Omega Ruby_Alpha Sapphire Piano Medley.mp3
 /home/michael/Music/Uploads from Aqare/Pokémon Ruby & Sapphire - Champion Steven Battle.mp3
 /home/michael/Music/Uploads from Aqare/Primordia (Xenoblade Chronicles X).mp3
 /home/michael/Music/Uploads from Aqare/Prince Sidon (Zelda - Breath of the Wild).mp3
 /home/michael/Music/Uploads from Aqare/Revali's Theme (Zelda Breath of the Wild).mp3
-/home/michael/Music/Uploads from Aqare/Rival Bede Battle Theme(Pokemon Sword & Shield).mp3
-/home/michael/Music/Uploads from Aqare/Roaming the Wastes.mp3
-/home/michael/Music/Uploads from Aqare/Route 209 (Pokémon Diamond.mp3
-/home/michael/Music/Uploads from Aqare/Rude Buster(Deltarune Battle Theme).mp3
+/home/michael/Music/Uploads from Aqare/Rival Bede Battle Theme (Pokemon Sword & Shield).mp3
+/home/michael/Music/Uploads from Aqare/Roaming the WastesMor Ardain (Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/Route 209 (Pokémon Diamond_Pearl_Platinum).mp3
+/home/michael/Music/Uploads from Aqare/Rude Buster (Deltarune Battle Theme).mp3
 /home/michael/Music/Uploads from Aqare/SAGA FRONTIER 2 - 'Feldschlacht I'.mp3
-/home/michael/Music/Uploads from Aqare/Satorl Marsh (Night)(Xenoblade Chronicles Definitive Edition).mp3
+/home/michael/Music/Uploads from Aqare/Satorl Marsh (Night) (Xenoblade Chronicles Definitive Edition).mp3
 /home/michael/Music/Uploads from Aqare/Slime Rancher - The Wilds (Day).mp3
-/home/michael/Music/Uploads from Aqare/Song of Storms(Zelda Ocarina of Time).mp3
+/home/michael/Music/Uploads from Aqare/Song of Storms (Zelda Ocarina of Time).mp3
 /home/michael/Music/Uploads from Aqare/Sonic 3 - Ice Cap Zone Act 1.mp3
 /home/michael/Music/Uploads from Aqare/Sonic Forces - Main Theme.mp3
 /home/michael/Music/Uploads from Aqare/Sonic Mania - Press Garden Act 2.mp3
@@ -147,11 +146,10 @@
 /home/michael/Music/Uploads from Aqare/Stardust Speedway Zone Act 1 (Sonic Mania).mp3
 /home/michael/Music/Uploads from Aqare/Stardust Speedway Zone Act 2 (Sonic Mania).mp3
 /home/michael/Music/Uploads from Aqare/Star Ocean 3 - Cutting Edge of Notion.mp3
-/home/michael/Music/Uploads from Aqare/Stickerbush Symphony (Super Smash Bros. Brawl.mp3
+/home/michael/Music/Uploads from Aqare/Stickerbush Symphony (Super Smash Bros. BrawlDonkey Kong Country 2).mp3
 /home/michael/Music/Uploads from Aqare/Studiopolis Zone Act 1 (Sonic Mania).mp3
-/home/michael/Music/Uploads from Aqare/Super Hard ] Primordia (Xenoblade Chronicles X).mp3
 /home/michael/Music/Uploads from Aqare/Super Mario 3D World - Double Cherry Pass.mp3
-/home/michael/Music/Uploads from Aqare/Super Mario Odyssey - Piano Remix.mp3
+/home/michael/Music/Uploads from Aqare/Super Mario Odyssey - Piano RemixMedley.mp3
 /home/michael/Music/Uploads from Aqare/Super Paper Mario - The Ultimate Show on 2 Pianos (Final Boss Theme).mp3
 /home/michael/Music/Uploads from Aqare/Super Smash Bros. Ultimate - Main Theme.mp3
 /home/michael/Music/Uploads from Aqare/Sylvalum Night (Xenoblade Chronicles X).mp3
@@ -159,37 +157,38 @@
 /home/michael/Music/Uploads from Aqare/Team Skull Theme (Pokémon Sun and Moon).mp3
 /home/michael/Music/Uploads from Aqare/The BEST FINAL AREA Themes in Video Games (Piano Medley).mp3
 /home/michael/Music/Uploads from Aqare/The Best Water Themes In Video Game History (Piano Medley).mp3
-/home/michael/Music/Uploads from Aqare/The Divine Princess and the Five Champions(Zelda - Breath of the Wild).mp3
-/home/michael/Music/Uploads from Aqare/The Legend of Zelda - Main Theme('Overworld').mp3
+/home/michael/Music/Uploads from Aqare/The Divine Princess and the Five Champions (Zelda - Breath of the Wild).mp3
+/home/michael/Music/Uploads from Aqare/The Legend of Zelda - Main Theme ('Overworld').mp3
 /home/michael/Music/Uploads from Aqare/The Legend of Zelda - Majora's Mask - Song of Healing.mp3
 /home/michael/Music/Uploads from Aqare/Theme of the Hard-Boiled Heavies (Sonic Mania).mp3
-/home/michael/Music/Uploads from Aqare/The Tomorrow With You(Xenoblade Chronicles 2).mp3
-/home/michael/Music/Uploads from Aqare/Those Who Stand Against Our Path(Xenoblade Chronicles 2).mp3
-/home/michael/Music/Uploads from Aqare/Torna Battle Theme(Xenoblade Chronicles 2).mp3
-/home/michael/Music/Uploads from Aqare/Tostarena Ruins(Super Mario Odyssey).mp3
-/home/michael/Music/Uploads from Aqare/Trainer Battle Theme (Pokemon Sun.mp3
-/home/michael/Music/Uploads from Aqare/Uraya Day Theme(Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/The Tomorrow With You (Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/Those Who Stand Against Our Path (Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/Torna Battle Theme (Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/Tostarena Ruins (Super Mario Odyssey).mp3
+/home/michael/Music/Uploads from Aqare/Trainer Battle Theme (Pokemon Sun_Moon).mp3
+/home/michael/Music/Uploads from Aqare/Uraya Day Theme (Xenoblade Chronicles 2).mp3
 /home/michael/Music/Uploads from Aqare/Vah Naboris Battle (Zelda Breath of the Wild).mp3
 /home/michael/Music/Uploads from Aqare/Vah Ruta Battle (Zelda Breath of the Wild).mp3
-/home/michael/Music/Uploads from Aqare/Walking With You(Xenoblade Chronicles 2).mp3
-/home/michael/Music/Uploads from Aqare/What If Dire, Dire Docks was an EPIC Battle Theme.mp3
+/home/michael/Music/Uploads from Aqare/Walking With You (Xenoblade Chronicles 2)'Desolation'.mp3
+/home/michael/Music/Uploads from Aqare/What If Dire, Dire Docks was an EPIC Battle Theme [REMIX].mp3
 /home/michael/Music/Uploads from Aqare/Wooded Kingdom (Super Mario Odyssey).mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - 'Counterattack'.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - The Final Battle ('After Despair and Hope').mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - Torna Title Theme.mp3
-/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 3 - Main Theme.mp3
+/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 3 - Main Theme ('A Life Sent on').mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - A Tragic Decision.mp3
-/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Beyond the Sky(Ending Theme).mp3
+/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Beyond the Sky (Ending Theme).mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Gaur Plains.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Once We Part Ways.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Title Theme.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Unfinished Business.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Valak Mountain (Night).mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles X - 'The Way'.mp3
-/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles X - 'Uncontrollable'(Tyrant Battle Theme).mp3
-/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles X - 'Your Voice'(Ending Theme).mp3
+/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles X - 'Uncontrollable' (Tyrant Battle Theme).mp3
+/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles X - 'Your Voice' (Ending Theme).mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Zanza The Divine.mp3
 /home/michael/Music/Uploads from Aqare/Xenosaga Ep.III - Godsibb.mp3
+/home/michael/Music/Uploads from Aqare/You Will Know Our Names - Finale' (Xenoblade Chronicles 3).mp3
 /home/michael/Music/Uploads from Aqare/Ys VIII Lacrimosa of Dana - Everlasting Transeunt.mp3
 /home/michael/Music/Uploads from Aqare/Ys VIII - Lacrimosa of Dana - 'Gens d'Armes'.mp3
 /home/michael/Music/Uploads from Aqare/Zelda Age Of Calamity - Worlds Converge (Sidon & Yunobo).mp3
@@ -666,6 +665,8 @@
 /home/michael/Music/Xenoblade Chronicles 2 OST/Over the Sinful Entreaty.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Parting.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Past From Far Distance.mp3
+/home/michael/Music/Xenoblade Chronicles 2 OST/Praetor Amalthus - The Acting God.mp3
+/home/michael/Music/Xenoblade Chronicles 2 OST/Running.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Sea of Clouds.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Shadow of the Lowlands.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Song of Giga Rosa.mp3
@@ -681,6 +682,7 @@
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Beginning of Darkness.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Decision (Chapter 10 Opening).mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Heroic Adventures.mp3
+/home/michael/Music/Xenoblade Chronicles 2 OST/The Impending Crisis.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Past Revealed.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Power of Jin.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/The Tomorrow With You.mp3
@@ -693,6 +695,7 @@
 /home/michael/Music/Xenoblade Chronicles 2 OST/Titan Battleship.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Torigoth.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Torigoth   Night.mp3
+/home/michael/Music/Xenoblade Chronicles 2 OST/Walking With You.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Wanted Nia.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/War and Peace (Mercenary Missions).mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/We Are The Chosen Ones.mp3
@@ -702,6 +705,7 @@
 /home/michael/Music/Xenoblade Chronicles 2 OST/Womb Center.mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Xenoblade II - Where It All Began (beta).mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/Xenoblade II - Where It All Began.mp3
+/home/michael/Music/Xenoblade Chronicles 2 OST/Yggdrasil (World Tree Theme).mp3
 /home/michael/Music/Xenoblade Chronicles 2 OST/You Will Recall Our Names.mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/A Moment of Eternity (Cutscene Ver.).mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/Auresco, Royal Capital.mp3
@@ -714,9 +718,6 @@
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/Our Paths May Never Cross.mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/Over Despair and Animus.mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/The Beginning of Our Memory.mp3
-/home/michael/Music/Xenoblade Chronicles 3/A Life Sent On.mp3
-/home/michael/Music/Xenoblade Chronicles 3/Keves Battle.mp3
-/home/michael/Music/Xenoblade Chronicles 3/The Weight of Life.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/A Friend On My Mind.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/Agniratha, Mechonis Capital.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/Agniratha, Mechonis Capital (Night).mp3

@@ -105,5 +105,5 @@ fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+alias e="exa"
 alias ls="ls -Nh"
-eval $(thefuck --alias)
