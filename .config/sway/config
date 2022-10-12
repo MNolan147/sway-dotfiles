@@ -13,9 +13,7 @@ set $right l
 set $term /usr/bin/kitty
 
 # Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
-set $menu wofi | xargs swaymsg exec --
+set $menu wofi
 
 include /etc/sway/config-vars.d/*
 include "$HOME/.cache/wal/colors-sway"
@@ -23,13 +21,15 @@ include ~/.config/sway/keybinds
 
 ### Output configuration
 #
-#output HDMI-A-1 resolution 1440x900
+#output HDMI-A-1 pos 0 0
 output "*" bg ~/.config/wpg/.current fill
 
 ### Idle configuration
 #
 exec_always killall swayidle
 exec_always swayidle -w \
+    timeout 120 'brightnessctl -s && brightnessctl set $(($(brightnessctl get)*10/100))'\
+    resume 'brightnessctl -r'\
     timeout 300 'swaylock -f --effect-blur 10x3 -i ~/.config/wpg/.current'\
     timeout 360 'swaymsg "output * dpms off"' \
     resume 'swaymsg "output * dpms on"' \
@@ -44,7 +44,7 @@ input type:touchpad {
 }
 
 input type:keyboard {
-    repeat_delay 300
+    repeat_delay 200
     repeat_rate 30
     xkb_model "pc105"
     xkb_layout us
@@ -62,11 +62,13 @@ input type:pointer {
     pointer_accel 0.25
 }
 
-seat * hide_cursor 7500
+seat * hide_cursor 2500
 
 #
 # Window rules
 #
+    default_orientation auto
+
     for_window [class=".*"] inhibit_idle fullscreen
     for_window [app_id=".*"] inhibit_idle fullscreen
 
@@ -79,12 +81,12 @@ seat * hide_cursor 7500
 # Auto-start processes
 #
     # Start background processes
-    exec --no-startup-id pywalfox start
-    exec --no-startup-id nm-applet
+    exec pywalfox start
+    exec nm-applet
+    exec rm -f /tmp/sovpipe && mkfifo /tmp/sovpipe && tail -f /tmp/sovpipe | sov
     # Start foreground applications
-    exec --no-startup-id qutebrowser 
-    exec --no-startup-id thunderbird
-    #exec --no-startup-id VirtualBoxVM --startvm "SCHOOL-WINDOWS-10" --start-paused
+    exec firefox
+    exec thunderbird
     
     focus_follows_mouse no
     focus_on_window_activation smart 
@@ -95,9 +97,6 @@ seat * hide_cursor 7500
 
     smart_gaps on
     smart_borders on
-    #gaps inner  10
-#    gaps vertical -5
-    #gaps outer 1
 #
 # Theming
 #
@@ -105,7 +104,6 @@ seat * hide_cursor 7500
     font "inconsolata nerd font mono medium 9"
 
     #Colour Scheme
-
     # class                  bground     border  text        indicator 
     client.focused           $background $color2 $foreground $color2
     client.focused_inactive  $background $color0 $foreground $color0
@@ -120,10 +118,7 @@ seat * hide_cursor 7500
     set $opacity 0.95
     for_window [class=".*"] opacity $opacity
     for_window [app_id=".*"] opacity $opacity
-    #for_window [app_id="qutebrowser"] opacity 1 
-    #for_window [app_id="firefox"] opacity 1 
 
-exec waybar &
-exec_always killall -SIGUSR2 waybar
+bar swaybar_command waybar
 
 include /etc/sway/config.d/*

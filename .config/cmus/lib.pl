@@ -143,6 +143,7 @@
 /home/michael/Music/Uploads from Aqare/Sonic Mania - Special Stage (Dimension Heist).mp3
 /home/michael/Music/Uploads from Aqare/Spear Of Justice (Undertale).mp3
 /home/michael/Music/Uploads from Aqare/Spirit Crucible Elpys (Xenoblade Chronicles 2).mp3
+/home/michael/Music/Uploads from Aqare/Splatoon 2 - Entropical.mp3
 /home/michael/Music/Uploads from Aqare/Stardust Speedway Zone Act 1 (Sonic Mania).mp3
 /home/michael/Music/Uploads from Aqare/Stardust Speedway Zone Act 2 (Sonic Mania).mp3
 /home/michael/Music/Uploads from Aqare/Star Ocean 3 - Cutting Edge of Notion.mp3
@@ -175,9 +176,11 @@
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - 'Counterattack'.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - The Final Battle ('After Despair and Hope').mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 2 - Torna Title Theme.mp3
-/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 3 - Main Theme ('A Life Sent on').mp3
+/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 3 - A Life Sent On.mp3
+/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles 3 - Title Theme.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - A Tragic Decision.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Beyond the Sky (Ending Theme).mp3
+/home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Colony 9 (Day).mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Gaur Plains.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Once We Part Ways.mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Title Theme.mp3
@@ -187,6 +190,7 @@
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles X - 'Uncontrollable' (Tyrant Battle Theme).mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles X - 'Your Voice' (Ending Theme).mp3
 /home/michael/Music/Uploads from Aqare/Xenoblade Chronicles - Zanza The Divine.mp3
+/home/michael/Music/Uploads from Aqare/Xenosaga Ep. III - 'Fatal Fight'.mp3
 /home/michael/Music/Uploads from Aqare/Xenosaga Ep.III - Godsibb.mp3
 /home/michael/Music/Uploads from Aqare/You Will Know Our Names - Finale' (Xenoblade Chronicles 3).mp3
 /home/michael/Music/Uploads from Aqare/Ys VIII Lacrimosa of Dana - Everlasting Transeunt.mp3
@@ -360,6 +364,27 @@
 /home/michael/Music/Xenoblade Chronicles X Original Soundtrack/z7b2012lp0427arr.mp3
 /home/michael/Music/Xenoblade Chronicles X Original Soundtrack/亡KEI却KOKU心 (Oblivia Day).mp3
 /home/michael/Music/Xenoblade Chronicles X Original Soundtrack/亡KEI却KOKU心 (Oblivia Night).mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 01 Prologue.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 02 First Steps.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 03 Resurrections.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 04 Awake.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 05 Postcard from Celeste Mountain.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 06 Checking In.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 07 Spirit of Hospitality.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 08 Scattered and Lost.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 09 Golden.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 10 Anxiety.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 11 Quiet and Falling.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 12 In the Mirror.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 13 Madeline and Theo.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 14 Starjump.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 15 Reflection.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 16 Confronting Myself.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 17 Little Goth.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 18 Reach for the Summit.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 19 Exhale.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 20 Heart of the Mountain.mp3
+/home/michael/.steam/debian-installation/steamapps/music/Celeste Original Soundtrack/Lena Raine - Celeste Original Soundtrack - 21 My Dearest Friends.mp3
 /home/michael/Music/The Legend of Zelda - Breath of the Wild Soundtrack/10,000 Year Legend.mp3
 /home/michael/Music/The Legend of Zelda - Breath of the Wild Soundtrack/A King's Request.mp3
 /home/michael/Music/The Legend of Zelda - Breath of the Wild Soundtrack/Akkala Ancient Laboratory.mp3
@@ -718,6 +743,91 @@
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/Our Paths May Never Cross.mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/Over Despair and Animus.mp3
 /home/michael/Music/Xenoblade Chronicles 2: Torna OST/The Beginning of Our Memory.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/Alfen Motif.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/Cyrus Motif.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/H'aanit Motif.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/OCTOPATH TRAVELER - メインテーマ -.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/Olberic Motif.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/Ophilia Motif.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/Primrose Motif.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/Therion Motif.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/Tressa Motif.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/ウッドランド地方.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/エンディングテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/クリフランド地方.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/コーストランド地方.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/サンランド地方.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/ちょっとひと休み.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/なんて滑稽な!.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/ハイランド地方.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/バトル1.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/バトル2.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/バトル3.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/フィニスの門.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/フラットランド地方.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/フロストランド地方.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/ボスバトル1.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/ボスバトル2.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/リバーランド地方.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/交易の都グランポート.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/優しさに包まれて.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/再起のために.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/剣士オルベリクのテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/勝利のファンファーレ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/商人トレサのテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/地下道ダンジョン.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/大平原を望む町村.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/奪われた街、失った光.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/学問の都アトラスダム.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/学者サイラスのテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/宝物のために.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/屋敷ダンジョン.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/山間の村コブルストン.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/崖下の村オアウェル.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/師匠のために.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/平穏な日常.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/張り詰めた糸.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/復讐のために.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/忍び寄る悪意.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/悠然たる山腹の街.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/悲哀.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/感傷.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/敗北のレクイエム.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/旅路の果てに立ちはだかる者.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/森ダンジョン.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/森の都ヴィクターホロウ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/歓喜.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/決意.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/治療のために.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/洞窟ダンジョン.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/海風を聴く街.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/清流の村クリアブルック.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/渦巻く凶兆.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/狩人ハンイットのテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/理を司る者.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/白雪舞い落ちる街.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/盗賊テリオンのテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/真実のために.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/砂漠の歓楽街サンシェイド.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/神官オフィーリアのテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/純然たる悪.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/絆.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/絶望.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/緊迫.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/聖火の都フレイムグレース.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/自由のために.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/葛藤.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/薬師アーフェンのテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/街は川と共に生きる.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/覚悟を決める時.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/試練のために.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/赤き断崖の集落.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/踊子プリムロゼのテーマ.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/輝く砂漠のオアシス.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/郷愁.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/静寂なる森の里.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/魔女と呼ばれる者.mp3
+/home/michael/Music/OCTOPATH TRAVELER Original Soundtrack/魔神の血を継ぐ者.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/A Friend On My Mind.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/Agniratha, Mechonis Capital.mp3
 /home/michael/Music/Xenoblade Chronicles - Definitive Edition OST/Agniratha, Mechonis Capital (Night).mp3

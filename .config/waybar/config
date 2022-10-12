@@ -34,18 +34,20 @@
     },
     "clock": {
         "interval": 1,
-        "format": "{:%d/%m %I:%M:%S%p}",
+        "format": "{:%a %F %r}",
         "timezone": "Australia/Brisbane",
+        "format-calendar": "{}",
+        "format-calendar-weeks": "W:{:%V}",
+        "format-calendar-weekdays": "{}",
     },
     //Left
     "cpu": {
         "interval": 2,
-        "format": "  {usage}%",
-        "tooltip": false
+        "format": " {usage}%",
     },
     "memory": {
         "interval": 5,
-        "format": "  {percentage}%"
+        "format": " {percentage}%"
     },
     "battery": {
         "states": {
@@ -54,8 +56,8 @@
             "critical": 15
         },
         "format": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
+        "format-charging": "{icon} {capacity}%",
+        "format-full": "{icon} {capacity}%",
         "format-icons": ["", "", "", "", ""]
     },
     "network": {
@@ -68,6 +70,6 @@
         "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
 	"tray": {
-		"icon-size": 20
+		"icon-size": 17
 	}
 }

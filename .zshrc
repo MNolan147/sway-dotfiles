@@ -6,9 +6,6 @@ export ANDROID_SDK_ROOT="/home/michael/Android/Sdk"
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# z
-. ~/programs/z/z.sh
-
 # Set term colours
 (/usr/bin/cat ~/.config/wpg/sequences &)
 source ~/.cache/wal/colors-tty.sh
@@ -22,42 +19,19 @@ export QT_QPA_PLATFORM=wayland
 # Theme
 ZSH_THEME="lambda"
 
-# Uncomment one of the following lines to change the auto-update behavior
-# zstyle ':omz:update' mode disabled  # disable automatic updates
-zstyle ':omz:update' mode auto      # update automatically without asking
-# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
-
-# Uncomment the following line to change how often to auto-update (in days).
+zstyle ':omz:update' mode auto
 zstyle ':omz:update' frequency 7 
 
-# Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
 
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
 HIST_STAMPS="dd/mm/yyyy"
 
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
+# Plugins
 plugins=(git aliases common-aliases command-not-found ubuntu)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-source ~/.config/zsh/bwcompletions.zsh
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -68,20 +42,10 @@ else
     export EDITOR='vim'
 fi
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# Aliases
 alias chp="echo -e 'connect B8:F1:2A:75:A1:65' | bluetoothctl"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias u='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+alias u='sudo apt update && sudo apt upgrade && sudo apt autoremove && notify-send "Update Complete!"'
 
 if  [ -f /bin/batcat ]; then
     alias cat='batcat'
@@ -91,10 +55,10 @@ else
     echo "bat not available, using cat"
 fi
 
-if [ -f /bin/fzf ]; then
-    alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
+if [ -f /bin/nvim ]; then
+    alias vim='nvim'
 else
-    echo "fzf not available"
+    echo "nvim not available, using vim"
 fi
 
 if [ -f /bin/nvim ]; then
@@ -105,5 +69,17 @@ fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-alias e="exa"
+if [ -f /bin/exa ]; then    
+    alias e="exa --icons"
+else
+    echo "exa not available using ls"
+fi
+
+if [ -f /usr/games/cbonsai ]; then
+    alias cb="/home/michael/.local/bin/cbonsaiLooped.sh"
+fi
+
 alias ls="ls -Nh"
+alias c="clear"
+alias cc="cd ~ && clear"
+

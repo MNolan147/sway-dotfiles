@@ -9,13 +9,10 @@
     bindsym $mod+Shift+q kill
 
     # Start your launcher
-    bindsym $mod+e exec $menu
+    bindsym --no-repeat $mod+e exec "killall $menu; $menu | xargs swaymsg exec --"
+    bindsym --no-repeat $mod+Shift+e exec "killall $menu; $menu -S drun | xargs swaymsg exec --"
 
-    # Drag floating windows by holding down $mod and left mouse button.
-    # Resize them with right mouse button + $mod.
-    # Despite the name, also works for non-floating windows.
-    # Change normal to inverse to use left mouse button for resizing and right
-    # mouse button for dragging.
+    # Drag floating windows
     floating_modifier $mod normal
 
     # Reload the configuration file
@@ -27,29 +24,16 @@
     # Lock screen 
     bindsym $mod+m exec "swaylock -f --effect-blur 10x3 -i ~/.config/wpg/.current"
     bindsym $mod+Shift+m exec systemctl suspend
-
-    # Background
-    #bindsym $mod+r exec /home/michael/.local/bin/wpg -m
 #
 # Moving around:
 #
     # Move your focus around
-    #bindsym $mod+a focus left
-    #bindsym $mod+s focus down
-    #bindsym $mod+w focus up
-    #bindsym $mod+d focus right
-
     bindsym $mod+$left  focus left
     bindsym $mod+$down  focus down
     bindsym $mod+$up    focus up
     bindsym $mod+$right focus right
 
     # Move the focused window with the same, but add Shift
-    #bindsym $mod+Shift+a move left
-    #bindsym $mod+Shift+s move down
-    #bindsym $mod+Shift+w move up
-    #bindsym $mod+Shift+d move right
-
     bindsym $mod+Shift+$left  move left
     bindsym $mod+Shift+$down  move down
     bindsym $mod+Shift+$up    move up
@@ -74,66 +58,71 @@
     set $ws10 10:10
 
     # Switch to workspace
-    bindsym $mod+1 workspace $ws1
-    bindsym $mod+2 workspace $ws2
-    bindsym $mod+3 workspace $ws3
-    bindsym $mod+4 workspace $ws4
-    bindsym $mod+5 workspace $ws5
-    bindsym $mod+f1 workspace $ws6
-    bindsym $mod+f2 workspace $ws7
-    bindsym $mod+f3 workspace $ws8
-    bindsym $mod+f4 workspace $ws9
-    bindsym $mod+f5 workspace $ws10
+    bindsym --no-repeat $mod+1 workspace $ws1
+    bindsym --no-repeat $mod+2 workspace $ws2
+    bindsym --no-repeat $mod+3 workspace $ws3
+    bindsym --no-repeat $mod+4 workspace $ws4
+    bindsym --no-repeat $mod+5 workspace $ws5
+    bindsym --no-repeat $mod+f1 workspace $ws6
+    bindsym --no-repeat $mod+f2 workspace $ws7
+    bindsym --no-repeat $mod+f3 workspace $ws8
+    bindsym --no-repeat $mod+f4 workspace $ws9
+    bindsym --no-repeat $mod+f5 workspace $ws10
     
     # Move focused container to workspace
-    bindsym $mod+Shift+1 move container to workspace $ws1
-    bindsym $mod+Shift+2 move container to workspace $ws2
-    bindsym $mod+Shift+3 move container to workspace $ws3
-    bindsym $mod+Shift+4 move container to workspace $ws4
-    bindsym $mod+Shift+5 move container to workspace $ws5
-    bindsym $mod+Shift+f1 move container to workspace $ws6
-    bindsym $mod+Shift+f2 move container to workspace $ws7
-    bindsym $mod+Shift+f3 move container to workspace $ws8
-    bindsym $mod+Shift+f4 move container to workspace $ws9
-    bindsym $mod+Shift+f5 move container to workspace $ws10
+    bindsym --no-repeat $mod+Shift+1 move container to workspace $ws1
+    bindsym --no-repeat $mod+Shift+2 move container to workspace $ws2
+    bindsym --no-repeat $mod+Shift+3 move container to workspace $ws3
+    bindsym --no-repeat $mod+Shift+4 move container to workspace $ws4
+    bindsym --no-repeat $mod+Shift+5 move container to workspace $ws5
+    bindsym --no-repeat $mod+Shift+f1 move container to workspace $ws6
+    bindsym --no-repeat $mod+Shift+f2 move container to workspace $ws7
+    bindsym --no-repeat $mod+Shift+f3 move container to workspace $ws8
+    bindsym --no-repeat $mod+Shift+f4 move container to workspace $ws9
+    bindsym --no-repeat $mod+Shift+f5 move container to workspace $ws10
     
     workspace_auto_back_and_forth yes
     bindsym $mod+o move workspace to output right 
     bindsym $mod+Shift+o move workspace to output left 
+    bindsym --no-repeat $mod+Mod1+Space exec "echo 1 > /tmp/sovpipe"
+    bindsym --release $mod+Mod1+Space exec "echo 0 > /tmp/sovpipe"
 
 #
 # Open commonly used programs
 #
-    bindsym $mod+w exec $term --session ~/.config/kitty/ranger_session --title "franger"
+    bindsym --no-repeat $mod+w exec $term --session ~/.config/kitty/ranger_session --title "franger"
     #bindsym $mod+a exec qutebrowser
-    bindsym $mod+a exec firefox
-    bindsym $mod+s exec $term --session ~/.config/kitty/config_session
-    bindsym $mod+d exec libreoffice
+    bindsym --no-repeat $mod+a exec firefox
+    bindsym --no-repeat $mod+s exec $term --session ~/.config/kitty/config_session
+    bindsym --no-repeat $mod+d exec libreoffice
 
-    bindsym $mod+Shift+w exec $term --session ~/.config/kitty/wpg_session --title "wpgterm"
-    bindsym $mod+Shift+a exec ~/.local/bin/zathura
-    bindsym $mod+Shift+s exec code
-    bindsym $mod+Shift+d exec discord
+    bindsym --no-repeat $mod+Shift+w exec $term --session ~/.config/kitty/wpg_session --title "wpgterm"
+    bindsym --no-repeat $mod+Shift+a exec ~/.local/bin/zathura
+    bindsym --no-repeat $mod+Shift+s exec code
+    bindsym --no-repeat $mod+Shift+d exec discord
 #
 # Audio control:
 #
     # Use pactl to control volume
-    bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -ui 5
-    bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -ud 5
-    bindsym XF86AudioMute exec --no-startup-id pamixer --toggle-mute
-    bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
+    bindsym XF86AudioRaiseVolume exec pamixer -ui 5
+    bindsym XF86AudioLowerVolume exec pamixer -ud 5
+    bindsym XF86AudioMute exec pamixer --toggle-mute
+    bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
     # Use playerctl to play and pause
-    bindsym XF86AudioPlay exec --no-startup-id "playerctl --player playerctld play-pause"
-    bindsym XF86AudioPause exec --no-startup-id "playerctl --player playerctld play-pause"
-    bindsym XF86AudioNext exec --no-startup-id "playerctl --player playerctld next"
-    bindsym XF86AudioPrev exec --no-startup-id "playerctl --player playerctld previous"
+    bindsym XF86AudioPlay exec "playerctl --player playerctld play-pause"
+    bindsym XF86AudioPause exec "playerctl --player playerctld play-pause"
+    bindsym XF86AudioNext exec "playerctl --player playerctld next"
+    bindsym XF86AudioPrev exec "playerctl --player playerctld previous"
+
+    # Connect Headphones
+    bindsym --no-repeat $mod+6 echo -e 'connect B8:F1:2A:75:A1:65' | bluetoothctl
 #
 # Brightness control:
 #
     # Use brightnessctl to controll backlight
-    bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 10%+
-    bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
+    bindsym XF86MonBrightnessUp exec brightnessctl set 10%+
+    bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
 #
 # Layout stuff:
 #
@@ -146,7 +135,10 @@
     bindsym $mod+x layout toggle split
 
     # Make the current focus fullscreen
-    bindsym $mod+f fullscreen
+    bindsym --no-repeat $mod+f fullscreen
+    
+    # Hide waybar
+    bindsym --no-repeat $mod+r exec killall -SIGUSR1 waybar 
 
     # Toggle the current focus between tiling and floating mode
     bindsym $mod+Shift+space floating toggle
@@ -161,10 +153,10 @@
 # Screenshots and screen recording
 #
 
-    bindsym $mod+p       exec grimshot --notify save active
-    bindsym $mod+Shift+p exec grimshot --notify save area
-    bindsym $mod+Alt+p  exec grimshot --notify save output
-    bindsym $mod+Ctrl+p  exec grimshot --notify save window
+    bindsym --no-repeat $mod+p       exec grimshot --notify save active
+    bindsym --no-repeat $mod+Shift+p exec grimshot --notify save area
+    bindsym --no-repeat $mod+Alt+p  exec grimshot --notify save output
+    bindsym --no-repeat $mod+Ctrl+p  exec grimshot --notify save window
 #
 # Scratchpad:
 #
@@ -172,7 +164,7 @@
     # You can send windows there and get them back later.
 
     # Move the currently focused window to the scratchpad
-    bindsym $mod+Shift+minus move scratchpad
+    bindsym --no-repeat $mod+Shift+minus move scratchpad
 
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
