@@ -1,0 +1,17 @@
+fade-in=0.1
+indicator
+clock
+indicator-radius=130
+indicator-thickness=15
+line-uses-inside
+inside-color=0F151D
+inside-clear-color=0F151D
+inside-ver-color=A26447
+inside-wrong-color=39444B
+key-hl-color=173345
+ring-color=2C3A43
+ring-clear-color=39444B
+ring-ver-color=A26447
+ring-wrong-color=39444B
+text-color=b2b5b9
+text-clear-color=b2b5b9

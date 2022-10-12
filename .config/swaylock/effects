@@ -1,0 +1,6 @@
+fade-in=0.1
+indicator
+clock
+indicator-radius=130
+indicator-thickness=15
+line-uses-inside
